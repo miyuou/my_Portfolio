@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
@@ -22,7 +23,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> MIRGHANY MERYEM </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

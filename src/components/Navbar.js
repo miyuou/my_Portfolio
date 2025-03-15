@@ -2,18 +2,13 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
+import { FaAward } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -38,9 +33,32 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        {/* Signature Section */}
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          style={{
+            fontSize: "2rem", // Larger size for emphasis
+            fontWeight: "bold",
+            fontFamily: "'Great Vibes', cursive", // Elegant cursive font
+            color: "#7B1FA2", // Rich purple shade
+            marginRight: "20px", // Spacing between signature and Home link
+            textDecoration: "none", // Remove default underline
+            transition: "color 0.3s ease, transform 0.3s ease", // Smooth hover effect
+            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)", // Subtle shadow for depth
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.color = "#9C27B0"; // Lighter purple on hover
+            e.target.style.transform = "scale(1.05)"; // Slightly enlarge on hover
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.color = "#7B1FA2"; // Reset color on hover out
+            e.target.style.transform = "scale(1)"; // Reset size on hover out
+          }}
+        >
+          MM. {/* Your signature */}
         </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -94,23 +112,12 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/Certificates"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <FaAward style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
