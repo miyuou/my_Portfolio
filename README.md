@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 You can reach me at:
 
 - **Email:** mirghany.meryem0@gmail.com
-- **LinkedIn:** [Your LinkedIn](www.linkedin.com/in/meryem-mirghany-779437298)
+- **LinkedIn:** [My LinkedIn](www.linkedin.com/in/meryem-mirghany-779437298)
 - **GitHub:** [My GitHub](https://github.com/miyuou)
 
 
