@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/piccie.jpg";
+import myImg from "../../Assets/Piccie.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -14,27 +14,30 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              Hey! I’m <span className="purple">Mirghany Meryem</span>, a 4th-year engineering student at{" "}
-              <span className="purple">EMSI, Casablanca</span>. I’m currently diving into{" "}
-              <span className="purple">software development</span>, with a focus on{" "}
-              <span className="purple">front-end, back-end</span>, and{" "}
-              <span className="purple">mobile apps</span>, as well as exploring{" "}
-              <span className="purple">data</span> and{" "}
-              <span className="purple">artificial intelligence</span>.
-              <br />
-              <br />
-              Still learning and growing every day, and I’m excited to tackle new challenges. I believe the best
-              solutions come from really listening to others and soaking in different ideas and perspectives. I'm the
-              one you’ll find listening closely and learning from those around me. 
-              <br />
-              <br />
-              Outside of coding, I enjoy <span className="purple">reading</span>, <span className="purple">writing</span>, and exploring topics like psychology and philosophy. 🧠📚
-            </p>
-          </Col>
+          <h1 style={{ fontSize: "2.6em" }}>
+  WELCOME TO MY WORLD: <span className="purple">Where Innovation Meets Engineering</span>
+</h1>
+<p className="home-about-body">
+  Hi! I’m <span className="purple">Mirghany Meryem</span>, a 4th-year engineering student at{" "}
+  <span className="purple">EMSI, Casablanca</span>. I’m passionate about{" "}
+  <span className="purple">software development</span>, specializing in{" "}
+  <span className="purple">front-end and back-end development</span>,{" "}
+  <span className="purple">mobile applications</span>, and exploring the fields of{" "}
+  <span className="purple">data science</span> and{" "}
+  <span className="purple">artificial intelligence</span>.
+  <br />
+  <br />
+  I’m constantly learning and growing, and I thrive on tackling new challenges. I believe the best solutions come from{" "}
+  <span className="purple">collaboration</span> and{" "}
+  <span className="purple">diverse perspectives</span>. I’m the kind of person who listens intently, learns from others, and applies those insights to create meaningful results.
+  <br />
+  <br />
+  When I’m not coding, I enjoy <span className="purple">reading</span>,{" "}
+  <span className="purple">writing</span>, and exploring topics like{" "}
+  <span className="purple">psychology</span> and{" "}
+  <span className="purple">philosophy</span>. 🧠📚
+</p>
+</Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="piccie" />

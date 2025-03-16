@@ -8,32 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mirghany Meryem</span> from <span className="purple">Casablanca, Morocco.</span>
-            <br />
-            I am currently in my 4th year of engineering at EMSI (specializing in MIAGE), focusing on frontend and backend development, mobile and web applications, and exploring data intelligence and artificial intelligence.
+            I’m a curious problem-solver who thrives on exploring the "why" behind things. Whether through code, conversations, or writing, I seek to understand the world from different perspectives.
           </p>
-          
+
           <p style={{ textAlign: "justify" }}>
-            Outside of coding, I enjoy:
+            Outside of coding:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Public Speaking
+              <ImPointRight /> <span className="purple">Public Speaking</span> – Speaking since childhood, I love sharing ideas and connecting with others.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading
+              <ImPointRight /> <span className="purple">Writing</span> – I jot down ideas and insights to reflect and explore deeper meanings.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing
+              <ImPointRight /> <span className="purple">Reading</span> – I dive into philosophy, psychology, and literature to broaden my worldview.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Active Listening
+              <ImPointRight /> <span className="purple">Active Listening</span> – I learn from others’ experiences to grow personally and professionally.
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"
+          <p style={{ color: "rgb(155 126 172)", marginTop: "20px" }}>
+            "Strive to build solutions that make a meaningful impact."
           </p>
           <footer className="blockquote-footer">Mirghany Meryem</footer>
         </blockquote>

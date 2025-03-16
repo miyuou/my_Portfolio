@@ -36,9 +36,9 @@ function Projects() {
               imgPath={Collection}
               title="Collection Manager"
               shortDescription="An efficient tool to manage collections."
-              description="Collection Manager allows you to efficiently manage and track various collections. With its user-friendly interface, users can add, edit, and remove items from their collection with ease."
+              description="Collection Manager allows you to efficiently manage and track various collections.Developed with ASP.NET CORE (Entity Framework) with its user-friendly interface, users can add, edit, and remove items from their collection with ease."
               ghLink="https://github.com/miyuou/CollectionManager"
-              isOngoing={true} // Set to false if the project is completed
+              isOngoing={false} // Set to false if the project is completed
             />
           </Col>
         </Row>

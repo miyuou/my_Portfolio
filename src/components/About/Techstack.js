@@ -8,12 +8,10 @@ import {
   DiPython,
   DiGit,
   DiJava,
-  DiPhp,
   DiDjango,
 } from "react-icons/di";
 import {
   SiFirebase,
-  SiPostgresql,
   SiMysql,
   SiMicrosoftsqlserver,
   SiOracle,
@@ -44,9 +42,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
-      </Col>
+     
 
       {/* Frameworks & Libraries */}
       <Col xs={4} md={2} className="tech-icons">
@@ -72,9 +68,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiOracle />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
+    
 
       {/* Cloud & Big Data */}
       <Col xs={4} md={2} className="tech-icons">

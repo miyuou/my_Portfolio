@@ -5,7 +5,8 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import ResumeNew from "./components/Resume/ResumeNew";
+
 import Certificates from "./components/Certificates/Certificates";
 
 import {
@@ -40,7 +41,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/resume" element={<ResumeNew />} /> {/* Main resume page */}
+       
           <Route path="/certificates" element={<Certificates />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
