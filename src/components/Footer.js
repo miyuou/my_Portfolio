@@ -5,17 +5,15 @@ import {
   AiFillGithub,
  
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhone } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+  const phoneNumber = "0632592233"; 
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mirghany Meryem</h3>
-        </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} MM.</h3>
         </Col>
@@ -40,6 +38,15 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href={`tel:${phoneNumber}`} // Use the tel: protocol for phone numbers
+                style={{ color: "white" }}
+                rel="noopener noreferrer"
+              >
+                <FaPhone />
               </a>
             </li>
            

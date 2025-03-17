@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+import Emsi from "../../Assets/Projects/EMSI.png";
 import Collection from "../../Assets/Projects/coll.png";
 import Hiber from "../../Assets/Projects/hotel hiber casablanca.png";
 
@@ -18,7 +19,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* Hiber Project */}
+        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Emsi}
+              title="EMSI SmartPresence"
+              shortDescription="Application de gestion des absences des étudiants pour l'établissement."
+              description="Le projet consiste à développer une application mobile Android conviviale et intuitive permettant aux professeurs de l’EMSI de gérer les absences des étudiants de manière simplifiée. L'application intégrera Firebase pour l'authentification et la gestion des données."
+              ghLink="https://github.com/miyuou/EMSI-SmartPresence"
+              isOngoing={true} // Set to true if the project is ongoing
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Hiber}
