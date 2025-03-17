@@ -9,6 +9,7 @@ import {
   DiGit,
   DiJava,
   DiDjango,
+
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -20,6 +21,7 @@ import {
   SiHtml5,
   SiCss3,
   SiDocker,
+  SiDotnet,
   
 } from "react-icons/si";
 
@@ -45,6 +47,9 @@ function Techstack() {
      
 
       {/* Frameworks & Libraries */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet /> {/* .NET icon */}
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSpringboot /> {/* Represents J2EE */}
       </Col>
