@@ -25,7 +25,7 @@ function Projects() {
               imgPath={Emsi}
               title="EMSI SmartPresence"
               shortDescription="Student Attendance Management Application for the Institution"
-              Description=" The project involves developing a user-friendly Android app for EMSI professors to manage student attendance efficiently. It integrates **Firebase** for **authentication** and **data management**, ensuring secure access and real-time updates. Built for Android, it simplifies attendance tracking and provides a seamless experience for professors."
+              description=" The project involves developing a user-friendly Android app for EMSI professors to manage student attendance efficiently. It integrates **Firebase** for **authentication** and **data management**, ensuring secure access and real-time updates. Built for Android, it simplifies attendance tracking and provides a seamless experience for professors."
               ghLink="https://github.com/miyuou/EMSI-SmartPresence"
               isOngoing={true}
           
