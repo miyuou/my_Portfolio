@@ -6,7 +6,8 @@ import Particle from "../Particle";
 import Emsi from "../../Assets/Projects/EMSI.png";
 import Collection from "../../Assets/Projects/coll.png";
 import Hiber from "../../Assets/Projects/hotel hiber casablanca.png";
-
+import emsiexchange from "../../Assets/Projects/logo emsiexchange.png";
+import auction from "../../Assets/Projects/auction.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -31,7 +32,27 @@ function Projects() {
           
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emsiexchange}
+              title="EmsiExchange"
+              shortDescription="EMSI Exchange Hub – Swap, Sell & Find Lost Items."
+              description="A fast, student-focused web app built with React, TypeScript, ShadCN UI, and Supabase, enabling EMSI students to exchange items and report lost & found belongings with ease."
+              isOngoing={true}
+             
+            />
+          </Col>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={auction}
+              title="Online Auction System"
+              shortDescription="SmartAuction – Online Bidding System."
+              description="A secure and dynamic online auction platform built with J2EE, enabling users to list, bid, and win items in real time with user-friendly interfaces and reliable backend processing."
+              isOngoing={true}
+             
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Hiber}

@@ -20,6 +20,10 @@ import Cert12 from "../../Assets/sdg.png";
 import Cert13 from "../../Assets/afri.png";
 import Cert14 from "../../Assets/recher.png";
 import Cert15 from "../../Assets/sql.png";
+import Cert16 from "../../Assets/docker.png";
+import Cert17 from "../../Assets/azure.png";
+import Cert18 from "../../Assets/devops.png";
+import Cert19 from "../../Assets/cloud.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -44,10 +48,50 @@ function Certificates() {
           </Col>
           <Col md={4} className="project-card">
             <CertificateCard
+              imgPath={Cert2}
+              title="People and Soft Skills for Professional and Personal Success"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/1d6e4dab39e22f1817366bd86aec4087"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
               imgPath={Cert4}
               title="Solving Problems with Creative and Critical Thinking"
               description="Issued by Coursera | IBM"
                 certificateLink="https://coursera.org/share/87a1b408dd3a44a6f01e7aaa5632a4f1"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert16}
+              title="Introduction to Containers w/ Docker, Kubernetes & OpenShift"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/08a2577ed82d06eeacb84c2ed67ca8b4"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert17}
+              title="Virtual Networks in Azure"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/abf9af8e5faf3ac828d7b9dd78fa0728"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert18}
+              title="Introduction to DevOps"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/72210e25df7549c58238533df5ca2929"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert19}
+              title="Introduction to Cloud Computing"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/761808572d6e0f4ae5d315fa9b2a4ab7"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -71,14 +115,7 @@ function Certificates() {
           </Col>
 
          
-          <Col md={4} className="project-card">
-            <CertificateCard
-              imgPath={Cert2}
-              title="People and Soft Skills for Professional and Personal Success"
-              description="Issued by Coursera | IBM"
-              certificateLink="https://coursera.org/share/1d6e4dab39e22f1817366bd86aec4087"
-            />
-          </Col>
+       
           <Col md={4} className="project-card">
             <CertificateCard
               imgPath={Cert6}
