@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdfEnglish from "../../Assets/CVVV.pdf";
-import pdfFrench from "../../Assets/cv final.pdf";
+import pdfFrench from "../../Assets/cv_final.pdf";
 import { AiOutlineEye } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
