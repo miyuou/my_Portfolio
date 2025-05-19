@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import Emsi from "../../Assets/Projects/EMSI.png";
 import Collection from "../../Assets/Projects/coll.png";
 import Hiber from "../../Assets/Projects/hotel hiber casablanca.png";
-import emsiexchange from "../../Assets/Projects/logo emsiexchange.png";
+import emsiexchange from "../../Assets/Projects/STICKER LOGO.png";
 import auction from "../../Assets/Projects/auction.jpeg";
 function Projects() {
   return (
