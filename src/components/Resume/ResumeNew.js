@@ -45,7 +45,7 @@ function ResumeNew() {
             >
               <AiOutlineEye />
               &nbsp;View French CV
-            </Button>
+            </Button>s
           </Col>
         </Row>
 
