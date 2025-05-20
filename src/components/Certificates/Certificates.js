@@ -28,6 +28,7 @@ import Cert20 from "../../Assets/softwareeng.png";
 import Cert21 from "../../Assets/agile.png";
 import Cert22 from "../../Assets/git.png";
 import Cert23 from "../../Assets/linux.png";
+import Cert24 from "../../Assets/arduino.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -230,6 +231,14 @@ function Certificates() {
               title="The Structured Query Language (SQL)"
               description="Issued by Coursera | University of Colorado Boulder"
               certificateLink="https://coursera.org/share/b4e1e0a3acb619fda985f232bb80f476"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert24}
+              title="The Arduino Platform and C Programming"
+              description="Issued by Coursera | University of Califronia,Irvine"
+              certificateLink="https://coursera.org/share/5af5866757d35b0f14af882abc0b7339"
             />
           </Col>
         </Row>
