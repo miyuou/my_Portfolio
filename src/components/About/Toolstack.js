@@ -36,9 +36,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFlutter />
-      </Col>
+      
 
       {/* DevOps & Deployment */}
       <Col xs={4} md={2} className="tech-icons">

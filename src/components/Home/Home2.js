@@ -39,10 +39,11 @@ function Home2() {
 </p>
 </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="piccie" />
-            </Tilt>
-          </Col>
+  <Tilt>
+    <img src={myImg} width="120" height="120" alt="piccie" />
+  </Tilt>
+</Col>
+
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
