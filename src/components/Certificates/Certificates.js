@@ -24,6 +24,10 @@ import Cert16 from "../../Assets/docker.png";
 import Cert17 from "../../Assets/azure.png";
 import Cert18 from "../../Assets/devops.png";
 import Cert19 from "../../Assets/cloud.png";
+import Cert20 from "../../Assets/softwareeng.png";
+import Cert21 from "../../Assets/agile.png";
+import Cert22 from "../../Assets/git.png";
+import Cert23 from "../../Assets/linux.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -80,12 +84,37 @@ function Certificates() {
           </Col>
           <Col md={4} className="project-card">
             <CertificateCard
+              imgPath={Cert21}
+              title="Introduction to Agile Development and Scrum"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/8882699669ed651db00a5ea3f51aed75"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert23}
+              title="Hands-on Introduction to Linux Commands and Shell Scripting"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/dabe8f61c1dfa0e293d8627542282a1b"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
               imgPath={Cert18}
               title="Introduction to DevOps"
               description="Issued by Coursera | IBM"
               certificateLink="https://coursera.org/share/72210e25df7549c58238533df5ca2929"
             />
           </Col>
+           <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert20}
+              title="Introduction to Software Engineering"
+              description="Issued by Coursera | IBM"
+              certificateLink="  https://coursera.org/share/b13d9d60565dc1b9ab41c34eb999786f"
+            />
+          </Col>
+        
           <Col md={4} className="project-card">
             <CertificateCard
               imgPath={Cert19}
@@ -114,7 +143,14 @@ function Certificates() {
             />
           </Col>
 
-         
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert22}
+              title="Getting Started with Git and GitHub"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/18c96756b7ce554199f87f2f817cfac4"
+            />
+          </Col>
        
           <Col md={4} className="project-card">
             <CertificateCard

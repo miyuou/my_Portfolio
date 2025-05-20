@@ -40,7 +40,7 @@ function Home2() {
 </Col>
           <Col md={4} className="myAvtar">
   <Tilt>
-    <img src={myImg} width="120" height="120" alt="piccie" />
+    <img src={myImg} width="150" height="150" alt="piccie" />
   </Tilt>
 </Col>
 
