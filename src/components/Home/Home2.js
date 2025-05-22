@@ -38,11 +38,7 @@ function Home2() {
   <span className="purple">philosophy</span>. 🧠📚
 </p>
 </Col>
-          <Col md={4} className="myAvtar">
-  <Tilt>
-    <img src={myImg} width="150" height="150" alt="piccie" />
-  </Tilt>
-</Col>
+ 
 
         </Row>
         <Row>
