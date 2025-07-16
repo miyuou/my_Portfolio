@@ -8,6 +8,7 @@ import Collection from "../../Assets/Projects/coll.png";
 import Hiber from "../../Assets/Projects/hotel hiber casablanca.png";
 import emsiexchange from "../../Assets/Projects/STICKER LOGO.png";
 import auction from "../../Assets/Projects/auction.jpeg";
+import PowerGLPI from "../../Assets/Projects/auction.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,6 +22,17 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         
+            <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={PowerGLPI} // Make sure you import your PowerGLPI logo/image
+    title="PowerGLPI - ITSM Data Analytics Solution"
+    shortDescription="Business Intelligence Dashboard for ITSM Data"
+    description="PowerGLPI is a BI solution that automates the extraction, transformation, and visualization of IT ticket data from GLPI. Built with Python and Power BI, it features real-time KPIs and interactive dashboards for smarter IT decision-making.Technologies used: Python (ETL, Pandas), Power BI (modeling, DAX, visualization), GLPI REST API (secure integration)."
+    ghLink="" 
+    isOngoing={true}
+  />
+</Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Emsi}

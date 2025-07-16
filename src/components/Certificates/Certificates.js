@@ -29,6 +29,15 @@ import Cert21 from "../../Assets/agile.png";
 import Cert22 from "../../Assets/git.png";
 import Cert23 from "../../Assets/linux.png";
 import Cert24 from "../../Assets/arduino.png";
+import Cert25 from "../../Assets/pbi.png";
+import Cert26 from "../../Assets/dataharnessing.png";
+import Cert27 from "../../Assets/ETL.png";
+import Cert28 from "../../Assets/deploy.png";
+import Cert29 from "../../Assets/dh.png";
+import Cert30 from "../../Assets/dm.png";
+import Cert31 from "../../Assets/CDPBI.png";
+import Cert32 from "../../Assets/DA.png";
+import Cert33 from "../../Assets/PL.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -51,6 +60,15 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/da67d371bf90c689f73a007869da6b4d"
             />
           </Col>
+           <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert25}
+              title="Microsoft Power BI Data Analyst Professional Certificate"
+              description="Issued by Coursera | Microsoft"
+                certificateLink="https://coursera.org/share/83289d507352d3052cde8923bb59ac01"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <CertificateCard
               imgPath={Cert2}
@@ -67,12 +85,52 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/87a1b408dd3a44a6f01e7aaa5632a4f1"
             />
           </Col>
+           <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert26}
+              title="Preparing Data for Analysis with Microsoft Excel"
+              description="Issued by Coursera | Microsoft"
+              certificateLink="https://coursera.org/share/b1a00f6c036c7b7491901726cd7332f2"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <CertificateCard
               imgPath={Cert16}
               title="Introduction to Containers w/ Docker, Kubernetes & OpenShift"
               description="Issued by Coursera | IBM"
               certificateLink="https://coursera.org/share/08a2577ed82d06eeacb84c2ed67ca8b4"
+            />
+          </Col>
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert27}
+              title="Extract, Transform and Load Data in Power BI"
+              description="Issued by Coursera | Microsoft"
+              certificateLink="https://coursera.org/share/d817c3f28d66df615c94501955b9fec6"
+            />
+          </Col>
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert32}
+              title="Data Analysis and Visualization with Power BI"
+              description="Issued by Coursera | Microsoft"
+                certificateLink="https://coursera.org/share/46d3344095853667d41c62741c9764f5"
+            />
+          </Col>
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert29}
+              title="Harnessing the Power of Data with Power BI"
+              description="Issued by Coursera | Microsoft"
+              certificateLink="https://coursera.org/share/3b637d58337d8b6a7e362cb71c03330e"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert30}
+              title="Data Modeling in Power BI"
+              description="Issued by Coursera | Microsoft"
+              certificateLink="https://coursera.org/share/b647fe80a9fc37f0b9539ac91dc7733f"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -89,6 +147,23 @@ function Certificates() {
               title="Introduction to Agile Development and Scrum"
               description="Issued by Coursera | IBM"
               certificateLink="https://coursera.org/share/8882699669ed651db00a5ea3f51aed75"
+            />
+          </Col>
+        
+            <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert28}
+              title="Deploy and Maintain Power BI Assets and Capstone project"
+              description="Issued by Coursera | Microsoft"
+              certificateLink="https://coursera.org/share/2b55c891b52daabd1b717548705a29cc"
+            />
+          </Col>
+             <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert31}
+              title="Creative Designing in Power BI"
+              description="Issued by Coursera | Microsoft"
+              certificateLink="https://coursera.org/share/b10c018fcd0b2b541e86062cffd77b4c"
             />
           </Col>
            <Col md={4} className="project-card">
@@ -167,6 +242,14 @@ function Certificates() {
               title="Present with Purpose: Create/Deliver Effective Presentations"
               description="Issued by Coursera | IBM"
               certificateLink="https://coursera.org/share/f9e8b3318065e8a2d762d12e8f5378b5"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <CertificateCard
+              imgPath={Cert33}
+              title="Microsoft PL-300 Exam Preparation and Practice"
+              description="Issued by Coursera | IBM"
+              certificateLink="https://coursera.org/share/0d932e998bd56e138183fe669a7e725c"
             />
           </Col>
           <Col md={4} className="project-card">
