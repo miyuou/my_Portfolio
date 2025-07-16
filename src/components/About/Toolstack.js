@@ -16,42 +16,42 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* IDEs & Dev Tools */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode title="VSCode"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudio />
+        <SiVisualstudio title="Visual Studio"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiIntellij />
+        <DiIntellij title="Intellij"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiEclipse />
+        <DiEclipse title="Eclipse"/>
       </Col>
 
       {/* Mobile Development Tools */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
+        <SiAndroidstudio title="AndroidStudio"/>
       </Col>
       
 
       {/* DevOps & Deployment */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <SiDocker title="Docker"/>
       </Col>
 
       {/* Operating Systems */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiLinux title="Linux"/>
       </Col>
     
 
       {/* Project Management */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiScrum /> {/* Scrum & Agile */}
+        <DiScrum title="Scrum & Agile"/> {/* Scrum & Agile */}
       </Col>
    
       <Col xs={4} md={2} className="tech-icons">
-        <FaProjectDiagram /> {/* UML */}
+        <FaProjectDiagram title="UML"/> {/* UML */}
       </Col>
       {/* BI & Reporting Tools */}
 <Col xs={4} md={2} className="tech-icons">
