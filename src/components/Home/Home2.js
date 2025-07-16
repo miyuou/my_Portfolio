@@ -18,7 +18,7 @@ function Home2() {
   WELCOME TO MY WORLD: <span className="purple">Where Innovation Meets Engineering</span>
 </h1>
 <p className="home-about-body">
-  Hi! I’m <span className="purple">Mirghany Meryem</span>, a 4th-year engineering student at{" "}
+  I’m <span className="purple">Mirghany Meryem</span>, a 4th-year engineering student at{" "}
   <span className="purple">EMSI, Casablanca</span>. I’m passionate about{" "}
   <span className="purple">software development</span>, specializing in{" "}
   <span className="purple">front-end and back-end development</span>,{" "}

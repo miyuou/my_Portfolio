@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiVisualstudio,
-  SiPostman,
   SiDocker,
   SiLinux,
 } from "react-icons/si";
@@ -11,7 +10,7 @@ import { FaLinux, FaProjectDiagram } from "react-icons/fa"; // UML
 import { DiScrum } from "react-icons/di"; // Agile/Scrum
 import { SiAndroidstudio, SiFlutter } from "react-icons/si"; // Android Studio, Flutter
 import { DiIntellij, DiEclipse } from "react-icons/di"; // IntelliJ IDEA, Eclipse
-
+import { FaChartBar } from "react-icons/fa";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -21,9 +20,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudio />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiIntellij />
@@ -57,6 +53,11 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaProjectDiagram /> {/* UML */}
       </Col>
+      {/* BI & Reporting Tools */}
+<Col xs={4} md={2} className="tech-icons">
+  <FaChartBar title="Power BI" />
+</Col>
+
     </Row>
   );
 }
