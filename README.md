@@ -19,35 +19,12 @@ Welcome to my personal portfolio, built with **React.js**. This portfolio showca
 
 Check out my live portfolio here: [Live Portfolio]((http://mirghany-portfolio.vercel.app))
 
-## 📂 **How to Run Locally**
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/miyuou/my_Portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd my_Portfolio
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 
 ## 🔗 **Contact**
 
 You can reach me at:
 
 - **Email:** mirghany.meryem0@gmail.com
-- **LinkedIn:** [My LinkedIn](www.linkedin.com/in/meryem-mirghany-779437298)
 - **GitHub:** [My GitHub](https://github.com/miyuou)
 
 
