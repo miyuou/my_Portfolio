@@ -23,6 +23,7 @@ import {
   SiDocker,
   SiDotnet,
   SiSupabase,
+  SiSqlite,
 } from "react-icons/si";
 
 function Techstack() {
@@ -73,7 +74,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiOracle title="Oracle"/>
       </Col>
-    
+     <Col xs={4} md={2} className="tech-icons">
+        <SiSqlite title="Sqlite"/>
+      </Col>
 
       {/* Cloud & Big Data */}
       <Col xs={4} md={2} className="tech-icons">
