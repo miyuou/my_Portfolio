@@ -8,7 +8,7 @@ import Collection from "../../Assets/Projects/coll.png";
 import Hiber from "../../Assets/Projects/hotel hiber casablanca.png";
 import emsiexchange from "../../Assets/Projects/STICKER LOGO.png";
 import auction from "../../Assets/Projects/auction.jpeg";
-import PowerGLPI from "../../Assets/Projects/auction.jpeg";
+import PowerGLPI from "../../Assets/Projects/pwglpi.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
