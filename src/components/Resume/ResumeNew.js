@@ -24,15 +24,31 @@ function ResumeNew() {
 
   const handleDownload = (language) => {
     const pdfFile = language === "english" ? pdfEnglish : pdfFrench;
-    const fileName = language === "english" ? "CV_English.pdf" : "CV_French.pdf";
+    const fileName = language === "english" ? "CV_Mirghany_English.pdf" : "CV_Mirghany_French.pdf";
     
-    // Create a temporary anchor element and trigger download
-    const link = document.createElement("a");
-    link.href = pdfFile;
-    link.download = fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Create a blob and download with clean filename
+    fetch(pdfFile)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('Download failed:', error);
+        // Fallback to direct link method
+        const link = document.createElement("a");
+        link.href = pdfFile;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      });
   };
 
   return (
