@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdfEnglish from "../../Assets/CVVV.pdf";
 import pdfFrench from "../../Assets/psps2.pdf";
-import { AiOutlineEye } from "react-icons/ai";
+import { AiOutlineEye, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
@@ -22,6 +22,19 @@ function ResumeNew() {
     setSelectedResume(language);
   };
 
+  const handleDownload = (language) => {
+    const pdfFile = language === "english" ? pdfEnglish : pdfFrench;
+    const fileName = language === "english" ? "CV_English.pdf" : "CV_French.pdf";
+    
+    // Create a temporary anchor element and trigger download
+    const link = document.createElement("a");
+    link.href = pdfFile;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div>
       <Container fluid className="resume-section">
@@ -36,6 +49,16 @@ function ResumeNew() {
               <AiOutlineEye />
               &nbsp;View English CV
             </Button>
+            <br />
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              onClick={() => handleDownload("english")}
+              style={{ maxWidth: "200px", margin: "5px", fontSize: "0.85rem" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Download English CV
+            </Button>
           </Col>
           <Col md={6} className="text-center">
             <Button
@@ -45,6 +68,16 @@ function ResumeNew() {
             >
               <AiOutlineEye />
               &nbsp;View French CV
+            </Button>
+            <br />
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              onClick={() => handleDownload("french")}
+              style={{ maxWidth: "200px", margin: "5px", fontSize: "0.85rem" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Download French CV
             </Button>
           </Col>
         </Row>

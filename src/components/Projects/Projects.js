@@ -29,7 +29,7 @@ function Projects() {
     shortDescription="Business Intelligence Dashboard for ITSM Data"
     description="PowerGLPI is a BI solution that automates the extraction, transformation, and visualization of IT ticket data from GLPI. Built with Python and Power BI, it features real-time KPIs and interactive dashboards for smarter IT decision-making.Technologies used: Python (ETL, Pandas), Power BI (modeling, DAX, visualization), GLPI REST API (secure integration)."
     ghLink="" 
-    isOngoing={true}
+    isOngoing={false}
   />
 </Col>
 
@@ -40,7 +40,7 @@ function Projects() {
               shortDescription="Student Attendance Management Application for the Institution"
               description=" The project involves developing a user-friendly Android app for EMSI professors to manage student attendance efficiently. It integrates **Firebase** for **authentication** and **data management**, ensuring secure access and real-time updates. Built for Android, it simplifies attendance tracking and provides a seamless experience for professors."
               ghLink="https://github.com/miyuou/EMSISMARTPRESENCE"
-              isOngoing={true}
+              isOngoing={false}
           
             />
           </Col>
@@ -51,7 +51,7 @@ function Projects() {
               shortDescription="EMSI Exchange Hub – Swap, Sell & Find Lost Items."
               description="A fast, student-focused web app built with React, TypeScript, ShadCN UI, and Supabase, enabling EMSI students to exchange items and report lost & found belongings with ease."
               ghLink="https://github.com/miyuou/emsi-exchange"
-              isOngoing={true}
+              isOngoing={false}
              
             />
           </Col>
@@ -63,7 +63,7 @@ function Projects() {
               shortDescription="SmartAuction – Online Bidding System."
               description="A secure and dynamic online auction platform built with J2EE, enabling users to list, bid, and win items in real time with user-friendly interfaces and reliable backend processing."
               ghLink="https://github.com/miyuou/J2EE_project"
-              isOngoing={true}
+              isOngoing={false}
              
             />
           </Col>

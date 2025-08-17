@@ -5,6 +5,7 @@ import {
   SiVisualstudio,
   SiDocker,
   SiLinux,
+   SiJira,
 } from "react-icons/si";
 import { FaLinux, FaProjectDiagram } from "react-icons/fa"; // UML
 import { DiScrum } from "react-icons/di"; // Agile/Scrum
@@ -49,7 +50,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiScrum title="Scrum & Agile"/> {/* Scrum & Agile */}
       </Col>
-   
+          <Col xs={4} md={2} className="tech-icons">
+        <SiJira title="Jira"/> {/* Jira */}
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaProjectDiagram title="UML"/> {/* UML */}
       </Col>
