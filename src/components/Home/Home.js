@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/pi.jpg";
@@ -12,9 +11,28 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+          <Row className="flex-column-reverse flex-md-row align-items-center">
+            {/* Image Column - Top on mobile */}
+            <Col md={5} className="text-center mb-4 mb-md-0">
+              <img
+                src={homeLogo}
+                alt="profile"
+                className="img-fluid"
+                style={{
+                  maxHeight: "450px",
+                  width: "auto",
+                  maxWidth: "100%",
+                  borderRadius: "10px",
+                  ...(window.innerWidth <= 767 && { 
+                    maxHeight: "200px"
+                  })
+                }}
+              />
+            </Col>
+
+            {/* Text Column - Bottom on mobile */}
+            <Col md={7} className="text-center text-md-start">
+              <h1 style={{ paddingBottom: 15, paddingTop: "20px" }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -26,18 +44,9 @@ function Home() {
                 <strong className="main-name"> MIRGHANY MERYEM </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: "30px 0" }} className="text-center">
                 <Type />
               </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
             </Col>
           </Row>
         </Container>
