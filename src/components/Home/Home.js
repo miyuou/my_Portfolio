@@ -30,24 +30,26 @@ function Home() {
               />
             </Col>
 
-            {/* Text Column - Bottom on mobile */}
-            <Col md={7} className="text-center text-md-start">
-              <h1 style={{ paddingBottom: 15, paddingTop: "20px" }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+         {/* Text Column - Bottom on mobile */}
+<Col md={7} className="text-md-start">
+  <div className="d-flex flex-column align-items-center align-items-md-start">
+    <h1 style={{ paddingBottom: 15, paddingTop: "20px" }} className="heading text-center text-md-start">
+      Hi There!{" "}
+      <span className="wave" role="img" aria-labelledby="wave">
+        👋🏻
+      </span>
+    </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> MIRGHANY MERYEM </strong>
-              </h1>
+    <h1 className="heading-name text-center text-md-start">
+      I'M
+      <strong className="main-name"> MIRGHANY MERYEM </strong>
+    </h1>
 
-              <div style={{ padding: "30px 0" }} className="text-center">
-                <Type />
-              </div>
-            </Col>
+    <div style={{ padding: "30px 0" }} className="text-center text-md-start">
+      <Type />
+    </div>
+  </div>
+</Col>
           </Row>
         </Container>
       </Container>
