@@ -24,7 +24,7 @@ function Home() {
                   maxWidth: "100%",
                   borderRadius: "10px",
                   ...(window.innerWidth <= 767 && { 
-                    maxHeight: "200px"
+                    maxHeight: "400px"
                   })
                 }}
               />
