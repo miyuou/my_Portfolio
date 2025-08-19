@@ -38,6 +38,7 @@ import Cert30 from "../../Assets/dm.png";
 import Cert31 from "../../Assets/CDPBI.png";
 import Cert32 from "../../Assets/DA.png";
 import Cert33 from "../../Assets/PL.png";
+import Cert34 from "../../Assets/BI.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -52,6 +53,14 @@ function Certificates() {
 
        <Row className="g-4"> 
           {/* First certificate card */}
+             <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert34}
+              title="Google Business Intelligence"
+              description="Issued by Coursera | Google"
+                certificateLink="https://coursera.org/share/61107f4950c8aab814743b766b3e12c7"
+            />
+          </Col>
          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert5}
