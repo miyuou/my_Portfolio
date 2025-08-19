@@ -50,9 +50,9 @@ function Certificates() {
           Here are some of the certifications I have earned.
         </p>
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+       <Row className="g-4"> 
           {/* First certificate card */}
-          <Col md={4} className="project-card">
+         <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert5}
               title="Software Engineering: Software Design and Project Management"
@@ -60,7 +60,7 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/da67d371bf90c689f73a007869da6b4d"
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert25}
               title="Microsoft Power BI Data Analyst Professional Certificate"
@@ -68,8 +68,7 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/83289d507352d3052cde8923bb59ac01"
             />
           </Col>
-          
-          <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert2}
               title="People and Soft Skills for Professional and Personal Success"
@@ -77,7 +76,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/1d6e4dab39e22f1817366bd86aec4087"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert4}
               title="Solving Problems with Creative and Critical Thinking"
@@ -85,7 +84,7 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/87a1b408dd3a44a6f01e7aaa5632a4f1"
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert26}
               title="Preparing Data for Analysis with Microsoft Excel"
@@ -93,7 +92,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/b1a00f6c036c7b7491901726cd7332f2"
             />
           </Col>
-          <Col md={4} className="project-card">
+           <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert16}
               title="Introduction to Containers w/ Docker, Kubernetes & OpenShift"
@@ -101,7 +100,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/08a2577ed82d06eeacb84c2ed67ca8b4"
             />
           </Col>
-            <Col md={4} className="project-card">
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert27}
               title="Extract, Transform and Load Data in Power BI"
@@ -109,7 +108,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/d817c3f28d66df615c94501955b9fec6"
             />
           </Col>
-            <Col md={4} className="project-card">
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert32}
               title="Data Analysis and Visualization with Power BI"
@@ -117,7 +116,7 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/46d3344095853667d41c62741c9764f5"
             />
           </Col>
-            <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert29}
               title="Harnessing the Power of Data with Power BI"
@@ -125,7 +124,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/3b637d58337d8b6a7e362cb71c03330e"
             />
           </Col>
-          <Col md={4} className="project-card">
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert30}
               title="Data Modeling in Power BI"
@@ -133,7 +132,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/b647fe80a9fc37f0b9539ac91dc7733f"
             />
           </Col>
-          <Col md={4} className="project-card">
+         <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert17}
               title="Virtual Networks in Azure"
@@ -141,7 +140,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/abf9af8e5faf3ac828d7b9dd78fa0728"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert21}
               title="Introduction to Agile Development and Scrum"
@@ -150,7 +149,7 @@ function Certificates() {
             />
           </Col>
         
-            <Col md={4} className="project-card">
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert28}
               title="Deploy and Maintain Power BI Assets and Capstone project"
@@ -158,7 +157,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/2b55c891b52daabd1b717548705a29cc"
             />
           </Col>
-             <Col md={4} className="project-card">
+  <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert31}
               title="Creative Designing in Power BI"
@@ -166,7 +165,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/b10c018fcd0b2b541e86062cffd77b4c"
             />
           </Col>
-           <Col md={4} className="project-card">
+             <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert23}
               title="Hands-on Introduction to Linux Commands and Shell Scripting"
@@ -174,7 +173,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/dabe8f61c1dfa0e293d8627542282a1b"
             />
           </Col>
-          <Col md={4} className="project-card">
+  <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert18}
               title="Introduction to DevOps"
@@ -182,7 +181,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/72210e25df7549c58238533df5ca2929"
             />
           </Col>
-           <Col md={4} className="project-card">
+             <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert20}
               title="Introduction to Software Engineering"
@@ -191,7 +190,7 @@ function Certificates() {
             />
           </Col>
         
-          <Col md={4} className="project-card">
+           <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert19}
               title="Introduction to Cloud Computing"
@@ -199,7 +198,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/761808572d6e0f4ae5d315fa9b2a4ab7"
             />
           </Col>
-          <Col md={4} className="project-card">
+           <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert1}
               title="Java and Object-Oriented Programming"
@@ -210,16 +209,9 @@ function Certificates() {
      
      
           {/* First certificate card */}
-          <Col md={4} className="project-card">
-            <CertificateCard
-              imgPath={Cert3}
-              title="React Basics"
-              description="Issued by Coursera | Meta"
-                certificateLink="https://coursera.org/share/c3e41af472fe6645bae1e252a9b89d55"
-            />
-          </Col>
+      
 
-          <Col md={4} className="project-card">
+      <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert22}
               title="Getting Started with Git and GitHub"
@@ -228,7 +220,7 @@ function Certificates() {
             />
           </Col>
        
-          <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert6}
               title="Delivering Quality Work with Agility"
@@ -236,7 +228,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/3a448b36eb362fe36ea280f2585e6a4e"
             />
           </Col>
-          <Col md={4} className="project-card">
+      <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert7}
               title="Present with Purpose: Create/Deliver Effective Presentations"
@@ -244,7 +236,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/f9e8b3318065e8a2d762d12e8f5378b5"
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert33}
               title="Microsoft PL-300 Exam Preparation and Practice"
@@ -252,7 +244,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/0d932e998bd56e138183fe669a7e725c"
             />
           </Col>
-          <Col md={4} className="project-card">
+           <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert8}
               title="The Unix Workbench"
@@ -260,7 +252,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/f9e8b3318065e8a2d762d12e8f5378b5"
             />
           </Col>
-          <Col md={4} className="project-card">
+         <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert9}
               title="Introduction à la programmation orientée objet (en C++)"
@@ -268,7 +260,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/44c6a5b0fdf91a26193421ac0cb03c02"
             />
           </Col>
-          <Col md={4} className="project-card">
+        <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert10}
               title="HTML, CSS, and Javascript for Web Developers"
@@ -276,7 +268,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/0c722c3f650454ad9e4b662c027a1035"
             />
           </Col>
-          <Col md={4} className="project-card">
+        <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert11}
               title="Developing Interpersonal Skills"
@@ -284,7 +276,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/39beab849a8f797441cace13120f700e"
             />
           </Col>
-          <Col md={4} className="project-card">
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert12}
               title="Impact Measurement & Management for the SDGs"
@@ -292,7 +284,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/ed31b9397f733ec35f4b544671a239a1"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert13}
               title="Villes africaines: Environnement et enjeux de développement durable"
@@ -300,7 +292,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/118d641d728ebe0329980312b2c7b4ca"
             />
           </Col>
-          <Col md={4} className="project-card">
+           <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert14}
               title="La recherche documentaire"
@@ -308,7 +300,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/4a4ed94d716c6a074e0191e7d919beee"
             />
           </Col>
-          <Col md={4} className="project-card">
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert15}
               title="The Structured Query Language (SQL)"
@@ -316,7 +308,7 @@ function Certificates() {
               certificateLink="https://coursera.org/share/b4e1e0a3acb619fda985f232bb80f476"
             />
           </Col>
-          <Col md={4} className="project-card">
+        <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert24}
               title="The Arduino Platform and C Programming"
