@@ -39,6 +39,7 @@ import Cert31 from "../../Assets/CDPBI.png";
 import Cert32 from "../../Assets/DA.png";
 import Cert33 from "../../Assets/PL.png";
 import Cert34 from "../../Assets/BI.png";
+import Cert35 from "../../Assets/scrum.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -61,12 +62,13 @@ function Certificates() {
                 certificateLink="https://coursera.org/share/61107f4950c8aab814743b766b3e12c7"
             />
           </Col>
-         <Col xs={12} sm={6} md={4}>
+        
+            <Col xs={12} sm={6} md={4}>
             <CertificateCard
-              imgPath={Cert5}
-              title="Software Engineering: Software Design and Project Management"
-              description="Issued by Coursera | THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY"
-                certificateLink="https://coursera.org/share/da67d371bf90c689f73a007869da6b4d"
+              imgPath={Cert35}
+              title="IT Scrum Master Specialization"
+              description="Issued by Coursera | IBM"
+                certificateLink="https://coursera.org/share/4a96ebfb1bfcd1a34e51d6d6562562f9"
             />
           </Col>
           <Col xs={12} sm={6} md={4}>
@@ -83,6 +85,14 @@ function Certificates() {
               title="People and Soft Skills for Professional and Personal Success"
               description="Issued by Coursera | IBM"
               certificateLink="https://coursera.org/share/1d6e4dab39e22f1817366bd86aec4087"
+            />
+          </Col>
+           <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert5}
+              title="Software Engineering: Software Design and Project Management"
+              description="Issued by Coursera | THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY"
+                certificateLink="https://coursera.org/share/da67d371bf90c689f73a007869da6b4d"
             />
           </Col>
           <Col xs={12} sm={6} md={4}>
