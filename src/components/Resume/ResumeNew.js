@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdfEnglish from "../../Assets/CVVV.pdf";
-import pdfFrench from "../../Assets/psps2.pdf";
+import pdfFrench from "../../Assets/Meryem_Mirghany_CV.pdf";
 import { AiOutlineEye, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const [selectedResume, setSelectedResume] = useState("english");
+  const [selectedResume, setSelectedResume] = useState("french");
 
   useEffect(() => {
     setWidth(window.innerWidth);
