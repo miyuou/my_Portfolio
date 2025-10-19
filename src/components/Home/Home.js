@@ -11,24 +11,27 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row className="align-items-center justify-content-center">
-            {/* Image Column */}
-            <Col xs={12} md={4} className="text-center mb-4 mb-md-0">
+          <Row className="flex-column-reverse flex-md-row align-items-center justify-content-center">
+            {/* Image Column - Top on mobile */}
+            <Col md={5} xs={12} className="text-center mb-4 mb-md-0">
               <img
                 src={homeLogo}
                 alt="profile"
                 className="img-fluid"
                 style={{
-                  maxHeight: "300px",
+                  maxHeight: "450px",
                   width: "auto",
                   maxWidth: "100%",
-                  borderRadius: "10px"
+                  borderRadius: "10px",
+                  ...(window.innerWidth <= 767 && { 
+                    maxHeight: "300px"
+                  })
                 }}
               />
             </Col>
 
-            {/* Text Column */}
-            <Col xs={12} md={6} className="text-center">
+            {/* Text Column - Bottom on mobile */}
+            <Col md={7} xs={12} className="text-center">
               <div className="d-flex flex-column align-items-center">
                 <h1 style={{ paddingBottom: 15, paddingTop: "20px" }} className="heading">
                   Hi There!{" "}
@@ -37,12 +40,15 @@ function Home() {
                   </span>
                 </h1>
 
-                <h1 className="heading-name" style={{ whiteSpace: "nowrap", overflow: "visible" }}>
-                  I'M<strong className="main-name" style={{ display: "block", marginTop: "10px" }}> MIRGHANY MERYEM </strong>
+                <h1 className="heading-name">
+                  I'M
+                  <strong className="main-name"> MIRGHANY MERYEM </strong>
                 </h1>
 
-                <div style={{ padding: "30px 0" }}>
-                  <Type />
+                <div style={{ padding: "30px 0", display: "flex", justifyContent: "center", width: "100%" }}>
+                  <div className="text-center">
+                    <Type />
+                  </div>
                 </div>
               </div>
             </Col>
