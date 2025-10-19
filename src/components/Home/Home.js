@@ -13,7 +13,7 @@ function Home() {
         <Container className="home-content">
           <Row className="align-items-center justify-content-center">
             {/* Image Column */}
-            <Col md={4} className="text-center mb-4 mb-md-0">
+            <Col xs={12} md={4} className="text-center mb-4 mb-md-0">
               <img
                 src={homeLogo}
                 alt="profile"
@@ -22,16 +22,13 @@ function Home() {
                   maxHeight: "300px",
                   width: "auto",
                   maxWidth: "100%",
-                  borderRadius: "10px",
-                  ...(window.innerWidth <= 767 && { 
-                    maxHeight: "250px"
-                  })
+                  borderRadius: "10px"
                 }}
               />
             </Col>
 
             {/* Text Column */}
-            <Col md={6} className="text-center">
+            <Col xs={12} md={6} className="text-center">
               <div className="d-flex flex-column align-items-center">
                 <h1 style={{ paddingBottom: 15, paddingTop: "20px" }} className="heading">
                   Hi There!{" "}
@@ -40,9 +37,8 @@ function Home() {
                   </span>
                 </h1>
 
-                <h1 className="heading-name">
-                  I'M
-                  <strong className="main-name"> MIRGHANY MERYEM </strong>
+                <h1 className="heading-name" style={{ whiteSpace: "nowrap", overflow: "visible" }}>
+                  I'M<strong className="main-name" style={{ display: "block", marginTop: "10px" }}> MIRGHANY MERYEM </strong>
                 </h1>
 
                 <div style={{ padding: "30px 0" }}>
