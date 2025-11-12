@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 
-import pdfEnglish from "../../Assets/mirghany_meryem_CV.pdf";
-import pdfFrench from "../../Assets/meryem_mirghany_CV.pdf";
+import pdfEnglish from "../../Assets/Mirghany_Meryem_CV.pdf";
+import pdfFrench from "../../Assets/Meryem_Mirghany_CV.pdf";
 import { AiOutlineEye, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
