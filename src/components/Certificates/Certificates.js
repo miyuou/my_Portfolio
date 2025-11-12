@@ -40,6 +40,7 @@ import Cert32 from "../../Assets/DA.png";
 import Cert33 from "../../Assets/PL.png";
 import Cert34 from "../../Assets/BI.png";
 import Cert35 from "../../Assets/scrum.png";
+import Cert36 from "../../Assets/oraclecertif.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -54,6 +55,14 @@ function Certificates() {
 
        <Row className="g-4"> 
           {/* First certificate card */}
+           <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert36}
+              title="Oracle Cloud Infrastructure Foundations 2025 Certified DevOps Professional"
+              description="Issued by Oracle"
+                certificateLink="https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC7499826&trackId=OCI25DOPOCP&key=af7a68a4f5d9031c41d13cccbc958247d692b019"
+            />
+          </Col>
              <Col xs={12} sm={6} md={4}>
             <CertificateCard
               imgPath={Cert34}

@@ -11,6 +11,8 @@ import auction from "../../Assets/Projects/auction.jpeg";
 import PowerGLPI from "../../Assets/Projects/pwglpi.jpg";
 import ticketManagement from "../../Assets/Projects/ticket.png";
 import testingAssistant from "../../Assets/Projects/test.png";
+import CareerMatchAI from "../../Assets/Projects/cr.png";
+import FacialRecognition from "../../Assets/Projects/f.jpeg";
 function Projects() {
   const projectsData = [
     {
@@ -30,6 +32,43 @@ function Projects() {
         "ETL pipeline for data processing"
       ]
     },
+     {
+    imgPath: CareerMatchAI, // You'll need to add this image
+    title: "CareerMatch AI - Talent Matching Platform",
+    shortDescription: "ML-powered career prediction and talent matching",
+    description: "CareerMatch AI is an intelligent platform that leverages machine learning algorithms to match talents with opportunities and predict career trajectories. The system analyzes profiles, skills, and market trends to provide personalized recommendations. Built with a modern tech stack, it features real-time analytics and interactive visualizations to help users make informed career decisions.",
+    technologies: ["React", "Python", "scikit-learn", "FastAPI", "PostgreSQL", "Power BI"],
+    ghLink: "",
+    demoLink: "",
+    isOngoing: true,
+    category: "Machine Learning",
+    features: [
+      "ML-based talent matching algorithm",
+      "Career trajectory prediction",
+      "Real-time analytics dashboard",
+      "RESTful API with FastAPI",
+      "Interactive Power BI visualizations"
+    ]
+  },
+  {
+    imgPath: FacialRecognition, // You'll need to add this image
+    title: "Facial Recognition - Deep Learning System",
+    shortDescription: "End-to-end CNN pipeline with mobile deployment",
+    description: "A comprehensive facial recognition system built using deep learning techniques. This project implements a complete ML pipeline from data preprocessing to model deployment on mobile devices. Using Convolutional Neural Networks (CNN), the system achieves high accuracy in face detection and recognition tasks. The mobile application provides real-time facial recognition capabilities with an intuitive user interface.",
+    technologies: ["TensorFlow", "OpenCV", "Flutter", "Python", "CNN"],
+    ghLink: "",
+    demoLink: "",
+    isOngoing: true,
+    category: "Deep Learning",
+    features: [
+      "CNN-based facial recognition model",
+      "Real-time face detection with OpenCV",
+      "Cross-platform mobile deployment",
+      "End-to-end ML pipeline",
+      "Image preprocessing and augmentation"
+    ]
+  },
+
     {
       imgPath: Emsi,
       title: "EMSI SmartPresence",
