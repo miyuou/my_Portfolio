@@ -15,6 +15,7 @@ function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [selectedResume, setSelectedResume] = useState("english");
 
+  
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
