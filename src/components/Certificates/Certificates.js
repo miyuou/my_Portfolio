@@ -41,6 +41,7 @@ import Cert33 from "../../Assets/PL.png";
 import Cert34 from "../../Assets/BI.png";
 import Cert35 from "../../Assets/scrum.png";
 import Cert36 from "../../Assets/oraclecertif.png";
+import Cert37 from "../../Assets/DE.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -61,6 +62,15 @@ function Certificates() {
               title="Oracle Cloud Infrastructure Foundations 2025 Certified DevOps Professional"
               description="Issued by Oracle"
                 certificateLink="https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC7499826&trackId=OCI25DOPOCP&key=af7a68a4f5d9031c41d13cccbc958247d692b019"
+            />
+          </Col>
+            {/* First certificate card */}
+           <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert37}
+              title="Data Engineering Foundations"
+              description="Issued by Coursera | IBM"
+                certificateLink="https://coursera.org/share/8961db0c474f6463fa8fc234a874ebb3"
             />
           </Col>
              <Col xs={12} sm={6} md={4}>
