@@ -139,7 +139,7 @@ When I'm not coding, I enjoy <span className="purple">reading</span>,{" "}
     }}>
       <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
         <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Business Intelligence Engineer</h3>
+        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data Engineer</h3>
       </div>
       
       <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Groupe Auto Hall</h4>
