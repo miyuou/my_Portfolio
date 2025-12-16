@@ -24,7 +24,7 @@ function Projects() {
       ghLink: "",
       demoLink: "",
       isOngoing: false,
-      category: "Business Intelligence",
+      category: "Data Engineering & BI",
       features: [
         "Automated GLPI data extraction",
         "Real-time interactive dashboards", 
