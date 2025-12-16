@@ -109,7 +109,7 @@ function Projects() {
   shortDescription: "Intelligent Manual Testing Automation Platform",
   description: "Comprehensive web application that revolutionizes manual testing workflows by automatically generating test cases from .docx specifications using AI. The platform extracts content from developer documentation, leverages OpenAI's GPT models to create structured test cases, and provides an intuitive interface for testers to execute and track results. Features include automated report generation and analytics dashboard for testing insights.",
   technologies: ["Python", "Flask", "React", "OpenAI API", "SQLite", "python-docx", "openpyxl", "Bootstrap", "Axios","Scrum"],
-  ghLink: "https://github.com/yourusername/testing-assistant", // Update with your actual repo
+  ghLink: "https://github.com/miyuou/smartticket.git", // Update with your actual repo
   demoLink: "", // Add demo link when available
   isOngoing: true,
   category: "AI & Automation",
