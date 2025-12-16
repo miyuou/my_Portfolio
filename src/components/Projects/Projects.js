@@ -109,7 +109,7 @@ function Projects() {
   shortDescription: "Intelligent Manual Testing Automation Platform",
   description: "Comprehensive web application that revolutionizes manual testing workflows by automatically generating test cases from .docx specifications using AI. The platform extracts content from developer documentation, leverages OpenAI's GPT models to create structured test cases, and provides an intuitive interface for testers to execute and track results. Features include automated report generation and analytics dashboard for testing insights.",
   technologies: ["Python", "Flask", "React", "OpenAI API", "SQLite", "python-docx", "openpyxl", "Bootstrap", "Axios","Scrum"],
-  ghLink: "https://github.com/miyuou/smartticket.git", // Update with your actual repo
+  ghLink: "https://github.com/miyuou/SmartQA.git", // Update with your actual repo
   demoLink: "", // Add demo link when available
   isOngoing: true,
   category: "AI & Automation",
@@ -145,7 +145,7 @@ function Projects() {
   shortDescription: "Enhanced Help Desk Analytics Platform",
   description: "Advanced ticket management system designed for technical support teams, featuring automated data import from Excel files and AI-powered analytics. The platform streamlines ticket workflow from creation to resolution, provides comprehensive statistical analysis with interactive dashboards, and generates professional reports. Built with modern full-stack architecture following agile methodology.",
   technologies: ["Python", "Flask", "React", "SQLAlchemy", "pandas", "Chart.js", "openpyxl", "Axios", "Material-UI"],
-  ghLink: "https://github.com/yourusername/ticket-management-system", // Update with your actual repo
+  ghLink: "https://github.com/miyuou/smartticket.git", // Update with your actual repo
   demoLink: "", // Add demo link when available
   isOngoing: true,
   category: "Full-Stack Development",
