@@ -12,7 +12,7 @@ import PowerGLPI from "../../Assets/Projects/pwglpi.jpg";
 import ticketManagement from "../../Assets/Projects/ticket.png";
 import testingAssistant from "../../Assets/Projects/test.png";
 import CareerMatchAI from "../../Assets/Projects/cr.png";
-import FloralRecognition from "../../Assets/Projects/f.jpeg";
+import FloralRecognition from "../../Assets/Projects/flower_wallpaper.jpg";
 function Projects() {
   const projectsData = [
     {
@@ -61,7 +61,7 @@ function Projects() {
     isOngoing: true,
     category: "Deep Learning",
     features: [
-      "CNN-based floral recognition model",
+      "floral recognition models (CNN, ANN, LSTM, RAG)",
       "Real-time floral detection with OpenCV",
       "Cross-platform mobile deployment",
       "End-to-end ML pipeline",
