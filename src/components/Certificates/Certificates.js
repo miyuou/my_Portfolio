@@ -7,7 +7,7 @@ import Particle from "../Particle";
 // Import certificate images
 import Cert1 from "../../Assets/JAVAPOO.png";
 import Cert2 from "../../Assets/SOFT.png";
-import Cert3 from "../../Assets/REACTBASICS-1.png";
+
 import Cert4 from "../../Assets/SOLV-1.png";
 import Cert5 from "../../Assets/softw.png";
 import Cert6 from "../../Assets/agility.png";
