@@ -33,7 +33,7 @@ Power BI dashboards that non-technical stakeholders actually use.
 <br /><br />
 Outside of work, I explore <span className="purple">psychology</span>, 
 <span className="purple">philosophy</span>, and 
-<span className="purple">writing</span>. 🧠📚
+<span className="purple"> writing</span>.
             </p>
           </Col>
         </Row>
@@ -153,8 +153,11 @@ Outside of work, I explore <span className="purple">psychology</span>,
       </div>
       
       <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-        Working on HR and payroll processes (DRH / CDGS), including process analysis,
-      reporting, and automation of manual workflows using data tools and web applications.
+   Designed and deployed an end-to-end automated payroll solution for the 
+CDGS & HR teams using Python/Django web app with role-based access control 
+on sensitive financial data, ETL pipeline processing bonus and salary 
+increase calculations, and Power BI dashboards replacing a 100% manual 
+workflow for 3 business units.
       </p>
     </div>
   </Col>
@@ -192,8 +195,9 @@ Outside of work, I explore <span className="purple">psychology</span>,
       </div>
       
       <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-       Developed an automated BI solution (POWERGLPI) that reduced manual reporting.
-       Built ETL pipelines and dashboards for IT performance analysis using Python and Power BI.
+     Built POWERGLPI, an end-to-end BI solution cutting manual reporting time by 
+90%. Designed ETL pipelines and Power BI dashboards tracking real-time IT 
+performance across the full Agile Scrum cycle.
       </p>
     </div>
   </Col>
@@ -229,8 +233,9 @@ Outside of work, I explore <span className="purple">psychology</span>,
       </div>
       
       <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-        Conducted Morocco's 2024 National Census, ensuring data accuracy and integrity. 
-        Enhanced communication skills and attention to detail in high-stakes data collection.
+        Collected and validated large-scale demographic datasets for Morocco's 2024 
+National Census of more than 800 residents. Applied data quality rules ensuring 
+completeness, consistency and uniqueness across high-volume structured data.
       </p>
     </div>
   </Col>

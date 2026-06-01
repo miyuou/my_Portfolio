@@ -19,7 +19,7 @@ function Projects() {
       imgPath: PowerGLPI,
       title: "PowerGLPI - ITSM Analytics Solution",
       shortDescription: "Business Intelligence Dashboard for ITSM Data",
-      description: "PowerGLPI is a comprehensive BI solution that automates extraction, transformation, and visualization of IT ticket data from GLPI. This solution enables IT teams to make informed decisions through real-time KPIs and interactive dashboards. The system automatically processes data to provide insights on performance, trends, and optimization opportunities.",
+      description: "PowerGLPI is a comprehensive BI solution Reducing Reporting time by 90% with a user-friendly dashboard, it automates extraction, transformation, and visualization of IT ticket data from GLPI. This solution enables IT teams to make informed decisions through real-time KPIs and interactive dashboards. The system automatically processes data to provide insights on performance, trends, and optimization opportunities.",
       technologies: ["Python", "Power BI", "Pandas", "DAX", "ETL"],
       ghLink: "",
       demoLink: "",
@@ -40,7 +40,7 @@ function Projects() {
     technologies: ["React", "Python", "scikit-learn", "FastAPI"],
     ghLink: "https://github.com/miyuou/CareerMatch_AI",
     demoLink: "",
-    isOngoing: true,
+    isOngoing: false,
     category: "Machine Learning",
     features: [
       "ML-based talent matching algorithm",
@@ -111,7 +111,7 @@ function Projects() {
   technologies: ["Python", "Flask", "React", "OpenAI API", "SQLite", "python-docx", "openpyxl", "Bootstrap", "Axios","Scrum"],
   ghLink: "https://github.com/miyuou/SmartQA.git", // Update with your actual repo
   demoLink: "", // Add demo link when available
-  isOngoing: true,
+  isOngoing: false,
   category: "AI & Automation",
   features: [
     "Automated test case generation from .docx files",
@@ -147,7 +147,7 @@ function Projects() {
   technologies: ["Python", "Flask", "React", "SQLAlchemy", "pandas", "Chart.js", "openpyxl", "Axios", "Material-UI"],
   ghLink: "https://github.com/miyuou/smartticket.git", // Update with your actual repo
   demoLink: "", // Add demo link when available
-  isOngoing: true,
+  isOngoing: false,
   category: "Full-Stack Development",
   features: [
     "Automated Excel data import and processing",
