@@ -53,7 +53,7 @@ Outside of work, I explore <span className="purple">psychology</span>,
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
@@ -87,7 +87,7 @@ Outside of work, I explore <span className="purple">psychology</span>,
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
@@ -129,7 +129,7 @@ Outside of work, I explore <span className="purple">psychology</span>,
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
@@ -171,7 +171,7 @@ workflow for 3 business units.
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
@@ -209,7 +209,7 @@ performance across the full Agile Scrum cycle.
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
@@ -247,7 +247,7 @@ completeness, consistency and uniqueness across high-volume structured data.
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
@@ -284,7 +284,7 @@ completeness, consistency and uniqueness across high-volume structured data.
       borderRadius: "10px", 
       marginBottom: "20px",
       border: "1px solid rgba(255, 255, 255, 0.2)",
-      minHeight: "280px",
+      Height: "280px",
       display: "flex",
       flexDirection: "column"
     }}>
