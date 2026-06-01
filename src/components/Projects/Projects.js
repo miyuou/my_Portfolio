@@ -61,7 +61,7 @@ function Projects() {
     isOngoing: false,
     category: "Deep Learning",
     features: [
-      "floral recognition models (CNN, ANN, LSTM, RAG)",
+      "floral recognition models (CNN, ANN)",
       "Real-time floral detection with OpenCV",
       "Cross-platform mobile deployment",
       "End-to-end ML pipeline",
