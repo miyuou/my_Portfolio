@@ -7,9 +7,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Engineering Student",
-          "Passionate about Data & AI",
-          "Aspiring Data Engineer",
+          "Data & Business Analyst",
+          "BI & Reporting Specialist",
+          "Business Process Analyst",
           "ETL & Data Pipeline Developer",
         ],
         autoStart: true,
@@ -19,5 +19,4 @@ function Type() {
     />
   );
 }
-
 export default Type;
