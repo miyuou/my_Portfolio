@@ -7,9 +7,9 @@ import {
   SiLinux,
    SiJira,
 } from "react-icons/si";
-import { FaLinux, FaProjectDiagram } from "react-icons/fa"; // UML
+import { FaProjectDiagram } from "react-icons/fa"; // UML
 import { DiScrum } from "react-icons/di"; // Agile/Scrum
-import { SiAndroidstudio, SiFlutter } from "react-icons/si"; // Android Studio, Flutter
+import { SiAndroidstudio } from "react-icons/si"; // Android Studio, Flutter
 import { DiIntellij, DiEclipse } from "react-icons/di"; // IntelliJ IDEA, Eclipse
 import { FaChartBar } from "react-icons/fa";
 function Toolstack() {
