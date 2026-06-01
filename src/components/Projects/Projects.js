@@ -55,10 +55,10 @@ function Projects() {
     title: "Floral Recognition - Deep Learning System",
     shortDescription: "End-to-end CNN/ANN/LSTM/RAG pipelines with mobile deployment",
     description: "A comprehensive floral recognition system built using deep learning techniques. This project implements a complete ML pipeline from data preprocessing to model deployment on mobile devices.The system achieves high accuracy in floral detection and recognition tasks. The mobile application provides real-time floral recognition capabilities with an intuitive user interface.",
-    technologies: ["TensorFlow", "OpenCV", "Flutter", "Python", "CNN","ANN","LSTM","RAG"],
+    technologies: ["TensorFlow", "OpenCV", "Flutter", "Python", "CNN","ANN"],
     ghLink: "https://github.com/miyuou/Flutter_App",
     demoLink: "",
-    isOngoing: true,
+    isOngoing: false,
     category: "Deep Learning",
     features: [
       "floral recognition models (CNN, ANN, LSTM, RAG)",

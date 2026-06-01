@@ -5,315 +5,246 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdWork, MdSchool } from "react-icons/md";
+const eduCardStyle = {
+  background: "rgba(255, 255, 255, 0)",
+  padding: "20px",
+  borderRadius: "10px",
+  marginBottom: "20px",
+  border: "1px solid rgba(255, 255, 255, 0.2)",
+  height: "260px",
+  display: "flex",
+  flexDirection: "column",
+  overflow: "hidden"
+};
+const expCardStyle = {
+  background: "rgba(255, 255, 255, 0)",
+  padding: "20px",
+  borderRadius: "10px",
+  marginBottom: "20px",
+  border: "1px solid rgba(255, 255, 255, 0.2)",
+  height: "400px",
+  display: "flex",
+  flexDirection: "column",
+  overflow: "hidden"
+};
+
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-      
-          <Row className="justify-content-center"> {/* Add justify-content-center here */}
-      <Col md={8} className="home-about-description text-center">
-       
+
+        <Row className="justify-content-center">
+          <Col md={8} className="home-about-description text-center">
             <h1 style={{ fontSize: "2.6em" }}>
-              WELCOME TO MY WORLD: <span className="purple">Where Innovation Meets Engineering</span>
+              WELCOME TO MY WORLD: <span className="purple">Where Data Meets Business Impact</span>
             </h1>
             <p className="home-about-body" style={{ textAlign: "center" }}>
-         I'm <span className="purple">Meryem Mirghany</span>, a final-year MIAGE 
-engineering student at <span className="purple">EMSI, Casablanca</span>, 
-specializing in <span className="purple">Data Engineering & Cloud</span>. 
-Currently interning at <span className="purple">Deloitte</span>, I work at 
-the intersection of <span className="purple">business process analysis</span> 
-and <span className="purple">data solutions</span>, translating complex 
-HR and finance requirements into automated pipelines and decision dashboards.
-<br /><br />
-I believe the best solutions come from understanding the business first. 
-I bridge the gap between <span className="purple">functional needs</span> 
-and <span className="purple">technical delivery</span>, from specs to 
-Power BI dashboards that non-technical stakeholders actually use.
-<br /><br />
-Outside of work, I explore <span className="purple">psychology</span>, 
-<span className="purple">philosophy</span>, and 
-<span className="purple"> writing</span>.
+              I'm <span className="purple">Meryem Mirghany</span>, a final-year MIAGE
+              engineering student at <span className="purple">EMSI, Casablanca</span>,
+              specializing in <span className="purple">Data Engineering & Cloud</span>.
+              Currently interning at <span className="purple">Deloitte</span>, I work at
+              the intersection of <span className="purple">business process analysis</span>
+              and <span className="purple">data solutions</span>, translating complex
+              HR and finance requirements into automated pipelines and decision dashboards.
+              <br /><br />
+              I believe the best solutions come from understanding the business first.
+              I bridge the gap between <span className="purple">functional needs</span>
+              and <span className="purple">technical delivery</span>, from specs to
+              Power BI dashboards that non-technical stakeholders actually use.
+              <br /><br />
+              Outside of work, I explore <span className="purple">psychology</span>,
+              <span className="purple"> philosophy</span>, and
+              <span className="purple"> writing</span>.
             </p>
           </Col>
         </Row>
 
- {/* Education Section */}
-<Row className="education-section" style={{ paddingTop: "50px" }}>
-  <Col md={12}>
-    <h1 className="project-heading">
-      My <strong className="purple">Education</strong>
-    </h1>
-  </Col>
-  
-  <Col md={6} className="education-card">
-    <div className="education-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdSchool style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Engineering Degree</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>EMSI - École Marocaine des Sciences de l'Ingénieur</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Location:</span> Casablanca, Morocco
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Year:</span> 2021 - 2026 (Expected)
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Focus:</span> Software Engineering (MIAGE)
-        </p>
-      </div>
-      
-   
-    </div>
-  </Col>
-  
-  <Col md={6} className="education-card">
-    <div className="education-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdSchool style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Baccalauréat</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Lahlou School Group</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Location:</span> Casablanca, Morocco
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Year:</span> 2020 - 2021
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Honors:</span> With honors - Physical Science
-        </p>
-      </div>
-      
-    
-    </div>
-  </Col>
-</Row>
+        {/* Education Section */}
+        <Row className="education-section" style={{ paddingTop: "50px", alignItems: "stretch" }}>
+          <Col md={12}>
+            <h1 className="project-heading">
+              My <strong className="purple">Education</strong>
+            </h1>
+          </Col>
+
+          <Col md={6} className="education-card">
+            <div className="education-item" style={eduCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdSchool style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Engineering Degree</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>EMSI - École Marocaine des Sciences de l'Ingénieur</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Location:</span> Casablanca, Morocco
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Year:</span> 2021 - 2026 (Expected)
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Focus:</span> Software Engineering & Networks (MIAGE) 
+                </p>
+              </div>
+            </div>
+          </Col>
+
+          <Col md={6} className="education-card">
+            <div className="education-item" style={eduCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdSchool style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Baccalauréat</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Lahlou School Group</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Location:</span> Casablanca, Morocco
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Year:</span> 2020 - 2021
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Honors:</span> With honors - Physical Science
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
 
         {/* Experience Section */}
-<Row className="experience-section" style={{ paddingTop: "50px" }}>
-  <Col md={12}>
-    <h1 className="project-heading">
-      My <strong className="purple">Experience</strong>
-    </h1>
-  </Col>
-  <Col md={6} className="experience-card">
-    <div className="experience-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & Business Analyst</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Deloitte</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Type:</span> Internship
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Duration:</span> Feb 2026 - Present
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Focus:</span> HR Data, Payroll, Process Automation, Python, ETL, Power BI, Agile Scrum
-        </p>
-      </div>
-      
-      <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-   Designed and deployed an end-to-end automated payroll solution for the 
+        <Row className="experience-section" style={{ paddingTop: "50px", alignItems: "stretch" }}>
+          <Col md={12}>
+            <h1 className="project-heading">
+              My <strong className="purple">Experience</strong>
+            </h1>
+          </Col>
+
+          <Col md={6} className="experience-card">
+            <div className="experience-item" style={expCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & Business Analyst</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Deloitte</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Type:</span> Internship
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Duration:</span> Feb 2026 - Present
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Stack:</span> Python, Django, ETL, Power BI, Agile Scrum
+                </p>
+              </div>
+              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+               Designed and deployed an end-to-end automated payroll solution for the 
 CDGS & HR teams using Python/Django web app with role-based access control 
 on sensitive financial data, ETL pipeline processing bonus and salary 
 increase calculations, and Power BI dashboards replacing a 100% manual 
 workflow for 3 business units.
-      </p>
-    </div>
-  </Col>
-  
-  
-  
-  <Col md={6} className="experience-card">
-    <div className="experience-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & BI Analyst</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Groupe Auto Hall</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Type:</span> Internship
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Duration:</span> Jul 2025 - Aug 2025
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Tech Stack:</span> Python, ETL, Power BI, Jira, Agile Scrum
-        </p>
-      </div>
-      
-      <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-     Built POWERGLPI, an end-to-end BI solution cutting manual reporting time by 
-90%. Designed ETL pipelines and Power BI dashboards tracking real-time IT 
-performance across the full Agile Scrum cycle.
-      </p>
-    </div>
-  </Col>
-  
-  <Col md={6} className="experience-card">
-    <div className="experience-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Census Enumerator</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Haut Commissariat au Plan</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Type:</span> Full-Time
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Duration:</span> Aug 2024 - Sep 2024
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Focus:</span> Data Collection & Quality Assurance
-        </p>
-      </div>
-      
-      <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-        Collected and validated large-scale demographic datasets for Morocco's 2024 
-National Census of more than 800 residents. Applied data quality rules ensuring 
+              </p>
+            </div>
+          </Col>
+
+          <Col md={6} className="experience-card">
+            <div className="experience-item" style={expCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & BI Analyst</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Groupe Auto Hall</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Type:</span> Internship
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Duration:</span> Jul 2025 - Aug 2025
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Stack:</span> Python, ETL, Power BI, Jira, Agile Scrum
+                </p>
+              </div>
+              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+                Built POWERGLPI, an end-to-end BI solution cutting manual IT reporting time by 90%. Designed ETL pipelines and Power BI dashboards tracking real-time IT GLPI tickets performance across the full Agile Scrum cycle.
+              </p>
+            </div>
+          </Col>
+
+          <Col md={6} className="experience-card">
+            <div className="experience-item" style={expCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Census Enumerator</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Haut Commissariat au Plan</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Type:</span> Full-Time
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Duration:</span> Aug 2024 - Sep 2024
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Focus:</span> Data Collection & Quality Assurance
+                </p>
+              </div>
+              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+                Collected and validated demographic datasets for Morocco's 2024 
+National Census - more than 1000 residents. Applied data quality rules ensuring 
 completeness, consistency and uniqueness across high-volume structured data.
-      </p>
-    </div>
-  </Col>
-  
-  <Col md={6} className="experience-card">
-    <div className="experience-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>IT Project Coordinator</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Canal Informatique</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Type:</span> Internship
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Duration:</span> Jul 2024
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Focus:</span> IT Infrastructure & Project Management
-        </p>
-      </div>
-      
-      <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-        Observed complete network implementation lifecycle from planning to deployment. 
-        Gained insights into project coordination and stakeholder management.
-      </p>
-    </div>
-  </Col>
-  
-  <Col md={6} className="experience-card">
-    <div className="experience-item" style={{ 
-      background: "rgba(255, 255, 255, 0)", 
-      padding: "20px", 
-      borderRadius: "10px", 
-      marginBottom: "20px",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-      Height: "280px",
-      display: "flex",
-      flexDirection: "column"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
-        <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Supply Chain & Operations Coordinator</h3>
-      </div>
-      
-      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Afriquia Shipping</h4>
-      
-      <div style={{ marginBottom: "15px" }}>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Type:</span> Internship
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Duration:</span> Jun 2023 - Jul 2023
-        </p>
-        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Focus:</span> Logistics & Supply Chain Systems
-        </p>
-      </div>
-      
-      <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-        Gained exposure to complex data flows in international trade operations. 
-        Developed systematic problem-solving skills and cross-functional coordination abilities.
-      </p>
-    </div>
-  </Col>
-</Row>
+              </p>
+            </div>
+          </Col>
+
+          <Col md={6} className="experience-card">
+            <div className="experience-item" style={expCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>IT Project Coordinator</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Canal Informatique</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Type:</span> Internship
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Duration:</span> Jul 2024
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Focus:</span> IT Infrastructure & Project Management
+                </p>
+              </div>
+              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+                Observed end-to-end network implementation for a 20+ workstation infrastructure project. Gained hands-on exposure to project planning, deployment coordination and stakeholder management.
+              </p>
+            </div>
+          </Col>
+
+          <Col md={6} className="experience-card">
+            <div className="experience-item" style={expCardStyle}>
+              <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+                <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Supply Chain & Operations Coordinator</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Afriquia Shipping</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Type:</span> Internship
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Duration:</span> Jun 2023 - Jul 2023
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Focus:</span> Logistics & Supply Chain Systems
+                </p>
+              </div>
+              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+                Analyzed data flows across international trade operations. Developed structured problem-solving skills in a high-stakes operational environment with cross-functional coordination.
+              </p>
+            </div>
+          </Col>
+        </Row>
 
         <Row>
           <Col md={12} className="home-about-social">
@@ -327,7 +258,7 @@ completeness, consistency and uniqueness across high-volume structured data.
                   href="https://github.com/miyuou"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -337,7 +268,7 @@ completeness, consistency and uniqueness across high-volume structured data.
                   href="https://www.linkedin.com/in/meryem-mirghany-779437298/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -345,6 +276,7 @@ completeness, consistency and uniqueness across high-volume structured data.
             </ul>
           </Col>
         </Row>
+
       </Container>
     </Container>
   );
