@@ -3,24 +3,24 @@
 
 Welcome to my personal portfolio, built with **React.js**. This portfolio showcases my recent projects and achievements.
 
-## 🚀 **Features**
+##  **Features**
 
 - **Showcase of Projects:** A list of all my personal and professional projects.
 - **Responsive Design:** The website is designed to work on all screen sizes.
 - **GitHub Repositories:** Links to my GitHub repositories for each project.
 
-## 💻 **Technologies Used**
+##  **Technologies Used**
 
 - **React.js:** For building the user interface.
 - **Bootstrap:** For styling and responsiveness.
 - **Vercel:** For deploying the app.
 
-## 🌐 **Live Link**
+##  **Live Link**
 
 Check out my live portfolio here: [Live Portfolio]((http://mirghany-portfolio.vercel.app))
 
 
-## 🔗 **Contact**
+##  **Contact**
 
 You can reach me at:
 
@@ -29,5 +29,5 @@ You can reach me at:
 
 
 
-**Thank you for visiting my portfolio!** 🙏
+**Thank you for visiting my portfolio!** 
 
