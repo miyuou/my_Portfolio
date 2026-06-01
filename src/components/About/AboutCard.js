@@ -8,7 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center", lineHeight: "1.6" }}>
-            I'm a curious problem-solver who thrives on exploring the "why" behind things. Whether through code, conversations, or writing, I seek to understand the world from different perspectives.
+            I'm a curious problem-solver who bridges business understanding and data solutions. I thrive on the "why" behind processes, whether 
+analyzing data to optimize workflows at Deloitte or building BI tools that 
+help teams make faster, better decisions.
           </p>
 
           <p style={{ textAlign: "center", marginTop: "20px", fontWeight: "500" }}>
@@ -43,7 +45,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)", marginTop: "30px", fontStyle: "italic", textAlign: "center" }}>
-            "Strive to build solutions that make a meaningful impact."
+            "The best data solution is the one the business actually uses."
           </p>
           <footer className="blockquote-footer" style={{ textAlign: "center", color: "rgb(155 126 172)" }}>Mirghany Meryem</footer>
         </blockquote>

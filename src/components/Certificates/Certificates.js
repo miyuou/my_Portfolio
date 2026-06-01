@@ -42,6 +42,7 @@ import Cert34 from "../../Assets/BI.png";
 import Cert35 from "../../Assets/scrum.png";
 import Cert36 from "../../Assets/oraclecertif.png";
 import Cert37 from "../../Assets/DE.png";
+import Cert38 from "../../Assets/honoris.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -79,6 +80,14 @@ function Certificates() {
               title="Google Business Intelligence"
               description="Issued by Coursera | Google"
                 certificateLink="https://coursera.org/share/61107f4950c8aab814743b766b3e12c7"
+            />
+          </Col>
+          <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert38}
+              title="Honoris 21st Century Skills: Soft Skills Certificate"
+              description="Issued by Honoris Online Academy"
+             
             />
           </Col>
         

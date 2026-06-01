@@ -18,25 +18,22 @@ function Home2() {
               WELCOME TO MY WORLD: <span className="purple">Where Innovation Meets Engineering</span>
             </h1>
             <p className="home-about-body" style={{ textAlign: "center" }}>
-           I'm <span className="purple">Mirghany Meryem</span>, a 5th-year engineering student at{" "}
-<span className="purple">EMSI, Casablanca</span>. I'm passionate about{" "}
-<span className="purple">technology and data</span>, with a focus on{" "}
-<span className="purple">building solutions</span> that help businesses make{" "}
-<span className="purple">informed decisions</span>. I enjoy working with{" "}
-<span className="purple">data analytics</span>,{" "}
-<span className="purple">automation</span>, and exploring how{" "}
-<span className="purple">technology</span> can solve real-world problems.
-<br />
-<br />
-I'm constantly learning and growing, and I thrive on tackling new challenges. I believe the best solutions come from{" "}
-<span className="purple">collaboration</span> and{" "}
-<span className="purple">diverse perspectives</span>. I'm the kind of person who listens intently, learns from others, and applies those insights to create meaningful results.
-<br />
-<br />
-When I'm not coding, I enjoy <span className="purple">reading</span>,{" "}
-<span className="purple">writing</span>, and exploring topics like{" "}
-<span className="purple">psychology</span> and{" "}
-<span className="purple">philosophy</span>. 🧠📚
+         I'm <span className="purple">Meryem Mirghany</span>, a final-year MIAGE 
+engineering student at <span className="purple">EMSI, Casablanca</span>, 
+specializing in <span className="purple">Data Engineering & Cloud</span>. 
+Currently interning at <span className="purple">Deloitte</span>, I work at 
+the intersection of <span className="purple">business process analysis</span> 
+and <span className="purple">data solutions</span>, translating complex 
+HR and finance requirements into automated pipelines and decision dashboards.
+<br /><br />
+I believe the best solutions come from understanding the business first. 
+I bridge the gap between <span className="purple">functional needs</span> 
+and <span className="purple">technical delivery</span>, from specs to 
+Power BI dashboards that non-technical stakeholders actually use.
+<br /><br />
+Outside of work, I explore <span className="purple">psychology</span>, 
+<span className="purple">philosophy</span>, and 
+<span className="purple">writing</span>. 🧠📚
             </p>
           </Col>
         </Row>
@@ -125,6 +122,44 @@ When I'm not coding, I enjoy <span className="purple">reading</span>,{" "}
       My <strong className="purple">Experience</strong>
     </h1>
   </Col>
+  <Col md={6} className="experience-card">
+    <div className="experience-item" style={{ 
+      background: "rgba(255, 255, 255, 0)", 
+      padding: "20px", 
+      borderRadius: "10px", 
+      marginBottom: "20px",
+      border: "1px solid rgba(255, 255, 255, 0.2)",
+      minHeight: "280px",
+      display: "flex",
+      flexDirection: "column"
+    }}>
+      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+        <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
+        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & Business Analyst</h3>
+      </div>
+      
+      <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Deloitte</h4>
+      
+      <div style={{ marginBottom: "15px" }}>
+        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+          <span className="purple">Type:</span> Internship
+        </p>
+        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+          <span className="purple">Duration:</span> Feb 2026 - Present
+        </p>
+        <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+          <span className="purple">Focus:</span> HR Data, Payroll, Process Automation, Python, ETL, Power BI, Agile Scrum
+        </p>
+      </div>
+      
+      <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
+        Working on HR and payroll processes (DRH / CDGS), including process analysis,
+      reporting, and automation of manual workflows using data tools and web applications.
+      </p>
+    </div>
+  </Col>
+  
+  
   
   <Col md={6} className="experience-card">
     <div className="experience-item" style={{ 
@@ -139,7 +174,7 @@ When I'm not coding, I enjoy <span className="purple">reading</span>,{" "}
     }}>
       <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
         <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data Engineer</h3>
+        <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & BI Analyst</h3>
       </div>
       
       <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Groupe Auto Hall</h4>
@@ -152,13 +187,13 @@ When I'm not coding, I enjoy <span className="purple">reading</span>,{" "}
           <span className="purple">Duration:</span> Jul 2025 - Aug 2025
         </p>
         <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-          <span className="purple">Tech Stack:</span> Python, Power BI, Jira, Agile Scrum
+          <span className="purple">Tech Stack:</span> Python, ETL, Power BI, Jira, Agile Scrum
         </p>
       </div>
       
       <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0" }}>
-        Developed POWERGLPI - an automated BI solution that reduced manual reporting. 
-        Built ETL pipelines and interactive dashboards for IT performance analysis.
+       Developed an automated BI solution (POWERGLPI) that reduced manual reporting.
+       Built ETL pipelines and dashboards for IT performance analysis using Python and Power BI.
       </p>
     </div>
   </Col>
