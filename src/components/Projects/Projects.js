@@ -13,18 +13,39 @@ import ticketManagement from "../../Assets/Projects/ticket.png";
 import testingAssistant from "../../Assets/Projects/test.png";
 import CareerMatchAI from "../../Assets/Projects/cr.png";
 import FloralRecognition from "../../Assets/Projects/flower_wallpaper.jpg";
+import DeloitteBanner from "../../Assets/Projects/Logo_Deloitte.jpeg";
 function Projects() {
   const projectsData = [
     {
+  imgPath: DeloitteBanner,
+  title: "Payroll Automation Platform – Deloitte",
+  shortDescription: "Data Engineering · Business Analysis · Governance",
+  description:
+    "Led the end-to-end design and delivery of a secure payroll automation platform for the Social Control Management & HR teams at Deloitte. Acting as the bridge between business stakeholders and technical implementation, gathering requirements through structured interviews, formalizing business rules, and translating them into a Python/Django web app with role-based access control, an ETL pipeline for bonus and salary calculations, and Power BI dashboards. Delivered under Agile Scrum with sprint planning, backlog grooming, and iterative demos to stakeholders : fully replacing a 100% manual workflow across 3 business units.",
+  technologies: ["Python", "Django", "ETL", "Power BI", "Scrum", "Agile"],
+  ghLink: "",
+  demoLink: "",
+  isOngoing: true,
+  category: "Data & Business Analysis",
+  features: [
+    "Stakeholder interviews & business requirements gathering",
+    "Data governance: role-based access control on sensitive payroll data",
+    "ETL pipeline for bonus & salary increase processing",
+    "Power BI dashboards replacing 100% manual reporting",
+    "Agile Scrum delivery: sprint planning, backlog, stakeholder demos",
+    "Deployed across 3 business units (CDGS & HR)"
+  ]
+},
+    {
       imgPath: PowerGLPI,
       title: "PowerGLPI - ITSM Analytics Solution",
-      shortDescription: "Business Intelligence Dashboard for ITSM Data",
+      shortDescription: "Business Intelligence & Automated Dashboard for ITSM Data",
       description: "PowerGLPI is a comprehensive BI solution Reducing Reporting time by 90% with a user-friendly dashboard, it automates extraction, transformation, and visualization of IT ticket data from GLPI. This solution enables IT teams to make informed decisions through real-time KPIs and interactive dashboards. The system automatically processes data to provide insights on performance, trends, and optimization opportunities.",
       technologies: ["Python", "Power BI", "Pandas", "DAX", "ETL"],
       ghLink: "",
       demoLink: "",
       isOngoing: false,
-      category: "Data Engineering & BI",
+      category: "Data & BI",
       features: [
         "Automated GLPI data extraction",
         "Real-time interactive dashboards", 
@@ -53,7 +74,7 @@ function Projects() {
   {
     imgPath: FloralRecognition, // You'll need to add this image
     title: "Floral Recognition - Deep Learning System",
-    shortDescription: "End-to-end CNN/ANN/LSTM/RAG pipelines with mobile deployment",
+    shortDescription: "End-to-end CNN/ANN pipelines with mobile deployment",
     description: "A comprehensive floral recognition system built using deep learning techniques. This project implements a complete ML pipeline from data preprocessing to model deployment on mobile devices.The system achieves high accuracy in floral detection and recognition tasks. The mobile application provides real-time floral recognition capabilities with an intuitive user interface.",
     technologies: ["TensorFlow", "OpenCV", "Flutter", "Python", "CNN","ANN"],
     ghLink: "https://github.com/miyuou/Flutter_App",
