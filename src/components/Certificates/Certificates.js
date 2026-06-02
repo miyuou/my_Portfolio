@@ -43,6 +43,11 @@ import Cert35 from "../../Assets/scrum.png";
 import Cert36 from "../../Assets/oraclecertif.png";
 import Cert37 from "../../Assets/DE.png";
 import Cert38 from "../../Assets/honoris.png";
+import Cert39 from "../../Assets/BA.png";
+import Cert40 from "../../Assets/COP.png";
+import Cert41 from "../../Assets/AUT.png";
+import Cert42 from "../../Assets/vba.png";
+import Cert43 from "../../Assets/TSM.png";
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -105,6 +110,46 @@ function Certificates() {
               title="Microsoft Power BI Data Analyst Professional Certificate"
               description="Issued by Coursera | Microsoft"
                 certificateLink="https://coursera.org/share/83289d507352d3052cde8923bb59ac01"
+            />
+          </Col>
+            <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert39}
+              title="Microsoft Business Analysis Fundamentals"
+              description="Issued by Coursera | Microsoft"
+                certificateLink="https://coursera.org/share/2877a80cc4cebf97d196f039264b6f417"
+            />
+          </Col>
+          <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert41}
+              title="Automation and Scripting with Python"
+              description="Issued by Coursera | Microsoft"
+                certificateLink="https://coursera.org/share/f9d77f0e2eb396d93c5e5ddd6df0986c"
+            />
+          </Col>
+             <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert42}
+              title="Excel VBA Macros: Automating Tasks"
+              description="Issued by Coursera | Logical Operations"
+                certificateLink="https://coursera.org/share/17ac253b95d451ef0b851a652765289e"
+            />
+          </Col>
+           <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert43}
+              title="Time Series Mastery: Forecasting with ETS, ARIMA, Python"
+              description="Issued by Coursera"
+                certificateLink="https://coursera.org/share/43d9c8a204c261ad366b93e8d5c92498"
+            />
+          </Col>
+           <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert40}
+              title="Microsoft GitHub Copilot for Project Management"
+              description="Issued by Coursera | Microsoft"
+                certificateLink="https://coursera.org/share/88b87189857f3355154082a6081ad89e"
             />
           </Col>
           <Col xs={12} sm={6} md={4}>
