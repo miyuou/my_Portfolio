@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { FaAward } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -25,6 +24,13 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  // Smooth scroll helper
+  const scrollToSection = (id) => {
+    updateExpanded(false);
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <Navbar
       expanded={expand}
@@ -33,89 +39,70 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* Signature Section */}
+        {/* Signature — scrolls back to top */}
         <Navbar.Brand
-          as={Link}
-          to="/"
+          onClick={() => scrollToSection("home")}
           style={{
-            fontSize: "2rem", // Larger size for emphasis
+            fontSize: "2rem",
             fontWeight: "bold",
-            fontFamily: "'Great Vibes', cursive", // Elegant cursive font
-            color: "#7B1FA2", // Rich purple shade
-            marginRight: "20px", // Spacing between signature and Home link
-            textDecoration: "none", // Remove default underline
-            transition: "color 0.3s ease, transform 0.3s ease", // Smooth hover effect
-            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)", // Subtle shadow for depth
+            fontFamily: "'Great Vibes', cursive",
+            color: "#7B1FA2",
+            marginRight: "20px",
+            textDecoration: "none",
+            transition: "color 0.3s ease, transform 0.3s ease",
+            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)",
+            cursor: "pointer",
           }}
           onMouseEnter={(e) => {
-            e.target.style.color = "#9C27B0"; // Lighter purple on hover
-            e.target.style.transform = "scale(1.05)"; // Slightly enlarge on hover
+            e.target.style.color = "#9C27B0";
+            e.target.style.transform = "scale(1.05)";
           }}
           onMouseLeave={(e) => {
-            e.target.style.color = "#7B1FA2"; // Reset color on hover out
-            e.target.style.transform = "scale(1)"; // Reset size on hover out
+            e.target.style.color = "#7B1FA2";
+            e.target.style.transform = "scale(1)";
           }}
         >
-          MM. {/* Your signature */}
+          MM.
         </Navbar.Brand>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
+          onClick={() => updateExpanded(expand ? false : "expanded")}
         >
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link onClick={() => scrollToSection("home")}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link onClick={() => scrollToSection("about")}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+              <Nav.Link onClick={() => scrollToSection("projects")}>
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link onClick={() => scrollToSection("resume")}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/Certificates"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link onClick={() => scrollToSection("certificates")}>
                 <FaAward style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>

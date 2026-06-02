@@ -41,10 +41,9 @@ function Home2() {
             </h1>
             <p className="home-about-body" style={{ textAlign: "center" }}>
               I'm <span className="purple">Meryem Mirghany</span>, a final-year MIAGE
-              engineering student at <span className="purple">EMSI, Casablanca</span>,
-              specializing in <span className="purple">Data Engineering & Cloud</span>.
+              engineering student at <span className="purple">EMSI, Casablanca</span>.
               Currently interning at <span className="purple">Deloitte</span>, I work at
-              the intersection of <span className="purple">business process analysis</span>
+              the intersection of <span className="purple">business process analysis </span>
               and <span className="purple">data solutions</span>, translating complex
               HR and finance requirements into automated pipelines and decision dashboards.
               <br /><br />
@@ -54,7 +53,7 @@ function Home2() {
               Power BI dashboards that non-technical stakeholders actually use.
               <br /><br />
               Outside of work, I explore <span className="purple">psychology</span>,
-              <span className="purple"> philosophy</span>, and
+              <span className="purple"> philosophy</span> and
               <span className="purple"> writing</span>.
             </p>
           </Col>

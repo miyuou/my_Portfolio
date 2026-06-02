@@ -6,49 +6,34 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import ResumeNew from "./components/Resume/ResumeNew";
-
 import Certificates from "./components/Certificates/Certificates";
-
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <Router>
+    <>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<ResumeNew />} /> {/* Main resume page */}
-       
-          <Route path="/certificates" element={<Certificates />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
+        <section id="home"><Home /></section>
+        <section id="about"><About /></section>
+        <section id="projects"><Projects /></section>
+        <section id="resume"><ResumeNew /></section>
+        <section id="certificates"><Certificates /></section>
         <Footer />
       </div>
-    </Router>
+    </>
   );
 }
 

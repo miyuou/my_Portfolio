@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Adjust scroll margin for fixed navbar */
+#home, #about, #projects, #resume, #certificates {
+  scroll-margin-top: 80px;
+}
