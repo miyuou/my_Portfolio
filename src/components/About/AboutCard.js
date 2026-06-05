@@ -9,12 +9,12 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center", lineHeight: "1.6" }}>
             I'm an engineer who believes the best SI solution starts with 
-            understanding the business — not the tool. From mapping broken 
+            understanding the business, not the tool. From mapping broken 
             workflows to deploying governed, automated systems, I work at the 
             intersection of <span className="purple">functional analysis</span>, 
             <span className="purple"> SI implementation</span> and 
             <span className="purple"> data intelligence</span>. Whether it's an 
-            ITSM platform, an SIRH solution or a BI pipeline — I bridge the gap 
+            ITSM platform, an SIRH solution or a BI pipeline, I bridge the gap 
             between what the business needs and what the system delivers.
           </p>
 
@@ -26,25 +26,25 @@ function AboutCard() {
             <li className="about-activity" style={{ display: "flex", alignItems: "flex-start", marginBottom: "12px", gap: "12px", maxWidth: "500px", justifyContent: "center" }}>
               <ImPointRight style={{ marginTop: "4px", flexShrink: 0 }} />
               <span>
-                <span className="purple">Public Speaking</span> – I love turning complex ideas into clear, compelling narratives for any audience.
+                <span className="purple">Public Speaking</span> - I love turning complex ideas into clear, compelling narratives for any audience.
               </span>
             </li>
             <li className="about-activity" style={{ display: "flex", alignItems: "flex-start", marginBottom: "12px", gap: "12px", maxWidth: "500px", justifyContent: "center" }}>
               <ImPointRight style={{ marginTop: "4px", flexShrink: 0 }} />
               <span>
-                <span className="purple">Writing</span> – I write to think. Ideas, observations, things worth remembering.
+                <span className="purple">Writing</span> - I write to think. Ideas, observations, things worth remembering.
               </span>
             </li>
             <li className="about-activity" style={{ display: "flex", alignItems: "flex-start", marginBottom: "12px", gap: "12px", maxWidth: "500px", justifyContent: "center" }}>
               <ImPointRight style={{ marginTop: "4px", flexShrink: 0 }} />
               <span>
-                <span className="purple">Reading</span> – Philosophy, psychology, literature — I read to understand people before systems.
+                <span className="purple">Reading</span> - Philosophy, psychology, literature. I read to understand people before systems.
               </span>
             </li>
             <li className="about-activity" style={{ display: "flex", alignItems: "flex-start", marginBottom: "12px", gap: "12px", maxWidth: "500px", justifyContent: "center" }}>
               <ImPointRight style={{ marginTop: "4px", flexShrink: 0 }} />
               <span>
-                <span className="purple">Active Listening</span> – The skill that makes every analysis, every workshop, every delivery better.
+                <span className="purple">Active Listening</span> - The skill that makes every analysis, every workshop, every delivery better.
               </span>
             </li>
           </ul>

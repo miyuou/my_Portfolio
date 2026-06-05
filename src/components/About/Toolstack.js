@@ -1,4 +1,5 @@
 import React from "react";
+import { FaServer } from "react-icons/fa";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
@@ -11,7 +12,7 @@ import {
   SiMicrosoftexcel,
   SiNotion,
   SiPowerbi,
-  SiGlpi,
+  
 } from "react-icons/si";
 import { FaProjectDiagram } from "react-icons/fa";
 import { DiScrum } from "react-icons/di";
@@ -47,8 +48,8 @@ function Toolstack() {
 
       {/* ITSM */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiGlpi title="GLPI"/>
-      </Col>
+  <FaServer title="GLPI - ITSM Platform"/>
+</Col>
 
       {/* Project & Delivery */}
       <Col xs={4} md={2} className="tech-icons">
