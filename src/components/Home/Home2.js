@@ -39,23 +39,25 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               WELCOME TO MY WORLD: <span className="purple">Where Data Meets Business Impact</span>
             </h1>
-            <p className="home-about-body" style={{ textAlign: "center" }}>
-              I'm <span className="purple">Meryem Mirghany</span>, a final-year MIAGE
-              engineering student at <span className="purple">EMSI, Casablanca</span>.
-              Currently interning at <span className="purple">Deloitte</span>, I work at
-              the intersection of <span className="purple">business process analysis </span>
-              and <span className="purple">data solutions</span>, translating complex
-              HR and finance requirements into automated pipelines and decision dashboards.
-              <br /><br />
-              I believe the best solutions come from understanding the business first.
-              I bridge the gap between <span className="purple">functional needs</span>
-              and <span className="purple">technical delivery</span>, from specs to
-              Power BI dashboards that non-technical stakeholders actually use.
-              <br /><br />
-              Outside of work, I explore <span className="purple">psychology</span>,
-              <span className="purple"> philosophy</span> and
-              <span className="purple"> writing</span>.
-            </p>
+           <p className="home-about-body" style={{ textAlign: "center" }}>
+  I'm <span className="purple">Meryem Mirghany</span>, a final-year MIAGE
+  engineering student at <span className="purple">EMSI, Casablanca</span>.
+  Currently interning at <span className="purple">Deloitte Extended Services</span>,
+  I work at the intersection of <span className="purple">business process analysis</span> and
+  <span className="purple"> SI implementation</span> — turning broken manual workflows
+  into automated, governed, and decision-ready systems.
+  <br /><br />
+  My work spans the full delivery cycle: from
+  <span className="purple"> functional specs and process mapping </span>
+  to <span className="purple">SI configuration, data governance</span> and
+  <span className="purple"> BI dashboards</span> that stakeholders actually use.
+  Whether it's an ITSM platform, an SIRH solution, or a data pipeline —
+  the approach is always the same: understand the business first, then build what solves it.
+  <br /><br />
+  Outside of work, I explore <span className="purple">psychology</span>,
+  <span className="purple"> philosophy</span> and
+  <span className="purple"> writing</span>.
+</p>
           </Col>
         </Row>
 
@@ -122,35 +124,27 @@ function Home2() {
             <div className="experience-item" style={expCardStyle}>
               <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & Business Analyst</h3>
-              </div>
-              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Deloitte</h4>
-              <div style={{ marginBottom: "15px" }}>
-                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-                  <span className="purple">Type:</span> Internship
-                </p>
-                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-                  <span className="purple">Duration:</span> Feb 2026 - Present
-                </p>
-                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-                  <span className="purple">Stack:</span> Python, Django, ETL, Power BI, Agile Scrum
-                </p>
-              </div>
-              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
-               Designed and deployed an end-to-end automated payroll solution for the 
-CDGS & HR teams using Python/Django web app with role-based access control 
-on sensitive financial data, ETL pipeline processing bonus and salary 
-increase calculations, and Power BI dashboards replacing a 100% manual 
-workflow for 3 business units.
+              <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>
+                                       SI Implementation & Data Governance
+                       </h3>
+
+
+               <span className="purple">Stack:</span> Python/Django, Power BI, ETL, RBAC, Agile Scrum
+
+</div>
+               <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+                     Digitalized an end-to-end HR payroll process covering 30+ organizational units. Delivered a secure SI solution (RBAC, audit trail, zero data persistence) with instant automated calculations replacing a 100% manual workflow and created dedicated Power BI spaces for DRH, CDGS and executive stakeholders.
+
               </p>
             </div>
+           
           </Col>
 
           <Col md={6} className="experience-card">
             <div className="experience-item" style={expCardStyle}>
               <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Data & BI Analyst</h3>
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}> ITSM Reporting & Data Engineer</h3>
               </div>
               <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Groupe Auto Hall</h4>
               <div style={{ marginBottom: "15px" }}>
@@ -165,7 +159,10 @@ workflow for 3 business units.
                 </p>
               </div>
               <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
-                Built POWERGLPI, an end-to-end BI solution cutting manual IT reporting time by 90%. Designed ETL pipelines and Power BI dashboards tracking real-time IT GLPI tickets performance across the full Agile Scrum cycle.
+                Built PowerGLPI : an automated BI solution connected directly to the GLPI ITSM
+  platform, eliminating 100% of manual IT reporting and cutting processing time by 90%.
+  Designed ETL pipelines and Power BI dashboards tracking real-time incident,
+  ticket and asset performance across the full Agile Scrum delivery cycle.
               </p>
             </div>
           </Col>

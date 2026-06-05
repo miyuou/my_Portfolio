@@ -2,64 +2,70 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiVisualstudio,
   SiDocker,
   SiLinux,
-   SiJira,
+  SiJira,
+  SiConfluence,
+  SiPostman,
+  SiGithub,
+  SiMicrosoftexcel,
+  SiNotion,
+  SiPowerbi,
+  SiGlpi,
 } from "react-icons/si";
-import { FaProjectDiagram } from "react-icons/fa"; // UML
-import { DiScrum } from "react-icons/di"; // Agile/Scrum
-import { SiAndroidstudio } from "react-icons/si"; // Android Studio, Flutter
-import { DiIntellij, DiEclipse } from "react-icons/di"; // IntelliJ IDEA, Eclipse
-import { FaChartBar } from "react-icons/fa";
+import { FaProjectDiagram } from "react-icons/fa";
+import { DiScrum } from "react-icons/di";
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* IDEs & Dev Tools */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode title="VSCode"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudio title="Visual Studio"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiIntellij title="Intellij"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiEclipse title="Eclipse"/>
-      </Col>
 
-      {/* Mobile Development Tools */}
+      {/* Dev Tools */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio title="AndroidStudio"/>
+        <SiVisualstudiocode title="VS Code"/>
       </Col>
-      
-
-      {/* DevOps & Deployment */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman title="Postman"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub title="GitHub"/>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker title="Docker"/>
       </Col>
-
-      {/* Operating Systems */}
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux title="Linux"/>
       </Col>
-    
 
-      {/* Project Management */}
+      {/* BI & Data */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiScrum title="Scrum & Agile"/> {/* Scrum & Agile */}
-      </Col>
-          <Col xs={4} md={2} className="tech-icons">
-        <SiJira title="Jira"/> {/* Jira */}
+        <SiPowerbi title="Power BI"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaProjectDiagram title="UML"/> {/* UML */}
+        <SiMicrosoftexcel title="Excel"/>
       </Col>
-      {/* BI & Reporting Tools */}
-<Col xs={4} md={2} className="tech-icons">
-  <FaChartBar title="Power BI" />
-</Col>
+
+      {/* ITSM */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGlpi title="GLPI"/>
+      </Col>
+
+      {/* Project & Delivery */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira title="Jira"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiConfluence title="Confluence"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiScrum title="Agile Scrum"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaProjectDiagram title="UML / Functional Design"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNotion title="Notion"/>
+      </Col>
 
     </Row>
   );
