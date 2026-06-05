@@ -49,6 +49,8 @@ import Cert41 from "../../Assets/AUT.png";
 import Cert42 from "../../Assets/vba.png";
 import Cert43 from "../../Assets/TSM.png";
 import Cert44 from "../../Assets/ITIL.png";
+import Cert45 from "../../Assets/ServiceNow.png";
+
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -94,6 +96,15 @@ function Certificates() {
               title="ITIL 4 Foundation Specialization"
               description="Issued by Coursera | Logical Operations"
                 certificateLink="https://coursera.org/share/c3a7d187287a20483ee568c7493cc567"
+            />
+          
+          </Col>
+            <Col xs={12} sm={6} md={4}>
+            <CertificateCard
+              imgPath={Cert45}
+              title="Advanced ITSM with ServiceNow: Optimizing IT Operations"
+              description="Issued by Coursera "
+                certificateLink="https://coursera.org/share/f98050f6327fed47f0564f5c963e54c6"
             />
           </Col>
           <Col xs={12} sm={6} md={4}>
