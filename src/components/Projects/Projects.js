@@ -16,43 +16,46 @@ import FloralRecognition from "../../Assets/Projects/flower_wallpaper.jpg";
 import DeloitteBanner from "../../Assets/Projects/Logo_Deloitte.jpeg";
 function Projects() {
   const projectsData = [
-    {
+   {
   imgPath: DeloitteBanner,
-  title: "Payroll Automation Platform – Deloitte",
+  title: "Payroll Automation Platform - Deloitte",
   shortDescription: "Data Engineering · Business Analysis · Governance",
   description:
-    "Led the end-to-end design and delivery of a secure payroll automation platform for the Social Control Management & HR teams at Deloitte. Acting as the bridge between business stakeholders and technical implementation, gathering requirements through structured interviews, formalizing business rules, and translating them into a Python/Django web app with role-based access control, an ETL pipeline for bonus and salary calculations, and Power BI dashboards. Delivered under Agile Scrum with sprint planning, backlog grooming, and iterative demos to stakeholders : fully replacing a 100% manual workflow across 3 business units.",
-  technologies: ["Python", "Django", "ETL", "Power BI", "Scrum", "Agile"],
+    "Led the end-to-end design and delivery of a secure payroll automation platform for the Social Control Management & HR teams at Deloitte. Acting as the bridge between business stakeholders and technical implementation: gathered requirements through structured workshops, formalized business rules across 30+ organizational units, and translated them into a Python/Django web app with role-based access control and full audit trail. Delivered an ETL pipeline for instant bonus and salary calculations — replacing a 100% manual workflow — and 3 dedicated Power BI spaces for DRH, CDGS and executive stakeholders. Delivered under Agile Scrum with sprint planning, backlog grooming, and iterative demos.",
+  technologies: ["Python", "Django", "ETL", "Power BI", "RBAC", "Agile Scrum"],
   ghLink: "",
   demoLink: "",
   isOngoing: true,
-  category: "Data & Business Analysis",
+  category: "SI Implementation & Data",
   features: [
-    "Stakeholder interviews & business requirements gathering",
-    "Data governance: role-based access control on sensitive payroll data",
-    "ETL pipeline for bonus & salary increase processing",
-    "Power BI dashboards replacing 100% manual reporting",
-    "Agile Scrum delivery: sprint planning, backlog, stakeholder demos",
-    "Deployed across 3 business units (CDGS & HR)"
+    "Business process mapping & functional specifications (AS-IS / TO-BE)",
+    "Data governance: RBAC for 3 profiles (DRH, CDGS, Direction) + audit trail",
+    "Instant automated calculations replacing 100% manual payroll workflow",
+    "ETL pipeline for bonus & salary increase processing across 30+ units",
+    "3 dedicated Power BI spaces with real-time KPIs per stakeholder profile",
+    "Agile Scrum delivery: sprint planning, backlog grooming, stakeholder demos"
   ]
 },
-    {
-      imgPath: PowerGLPI,
-      title: "PowerGLPI - ITSM Analytics Solution",
-      shortDescription: "Business Intelligence & Automated Dashboard for ITSM Data",
-      description: "PowerGLPI is a comprehensive BI solution Reducing Reporting time by 90% with a user-friendly dashboard, it automates extraction, transformation, and visualization of IT ticket data from GLPI. This solution enables IT teams to make informed decisions through real-time KPIs and interactive dashboards. The system automatically processes data to provide insights on performance, trends, and optimization opportunities.",
-      technologies: ["Python", "Power BI", "Pandas", "DAX", "ETL"],
-      ghLink: "",
-      demoLink: "",
-      isOngoing: false,
-      category: "Data & BI",
-      features: [
-        "Automated GLPI data extraction",
-        "Real-time interactive dashboards", 
-        "Advanced DAX calculations for business KPIs",
-        "ETL pipeline for data processing"
-      ]
-    },
+{
+  imgPath: PowerGLPI,
+  title: "PowerGLPI - ITSM Analytics Solution",
+  shortDescription: "ITSM Reporting · GLPI · Business Intelligence",
+  description:
+    "PowerGLPI is an end-to-end BI solution built directly on top of the GLPI ITSM platform at Groupe Auto Hall — eliminating 100% of manual IT reporting and cutting processing time by 90%. Designed after a full AS-IS audit of the existing IT reporting process, the solution automates extraction, transformation and visualization of live ticket and asset data from GLPI into interactive Power BI dashboards. Delivered full Agile Scrum cycle: requirements, sprints, UAT and production release.",
+  technologies: ["Python", "Pandas", "Power BI", "DAX", "GLPI", "ETL", "Agile Scrum"],
+  ghLink: "",
+  demoLink: "",
+  isOngoing: false,
+  category: "ITSM & BI",
+  features: [
+    "AS-IS audit of existing GLPI-based IT reporting process",
+    "Automated ETL pipeline connected directly to GLPI data",
+    "90% reduction in processing time, 100% manual reporting eliminated",
+    "Real-time Power BI dashboards tracking incidents, tickets & asset KPIs",
+    "Advanced DAX calculations for operational performance metrics",
+    "Full Agile Scrum delivery: sprints, UAT, production release"
+  ]
+},
      {
     imgPath: CareerMatchAI, // You'll need to add this image
     title: "CareerMatch AI - Talent Matching Platform",
