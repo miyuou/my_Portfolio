@@ -5,12 +5,14 @@ import Typewriter from "typewriter-effect";
 function Type() {
   return (
     <Typewriter
-      options={{
-        strings: [
-          "Data & Business Analyst",
-          "BI & Reporting Specialist",
-          "Business Process Analyst",
-          "ETL & Data Pipeline Developer",
+  options={{
+    strings: [
+      "SI & Transformation Digitale",
+      "Analyste Fonctionnelle & Data",
+      "Process Automation Engineer",
+      "BI & Reporting Specialist",
+      "Data & Business Analyst",
+  
         ],
         autoStart: true,
         loop: true,
