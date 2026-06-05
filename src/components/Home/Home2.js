@@ -119,26 +119,33 @@ function Home2() {
               My <strong className="purple">Experience</strong>
             </h1>
           </Col>
-
-          <Col md={6} className="experience-card">
+           <Col md={6} className="experience-card">
             <div className="experience-item" style={expCardStyle}>
               <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <MdWork style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-              <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>
-                                       SI Implementation & Data Governance
-                       </h3>
-
-
-               <span className="purple">Stack:</span> Python/Django, Power BI, ETL, RBAC, Agile Scrum
-
-</div>
-               <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
-                     Digitalized an end-to-end HR payroll process covering 30+ organizational units. Delivered a secure SI solution (RBAC, audit trail, zero data persistence) with instant automated calculations replacing a 100% manual workflow and created dedicated Power BI spaces for DRH, CDGS and executive stakeholders.
-
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}> SI Implementation & Data Governance</h3>
+              </div>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>Deloitte</h4>
+              <div style={{ marginBottom: "15px" }}>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Type:</span> Internship
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Duration:</span> Feb 2026 - Present
+                </p>
+                <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
+                  <span className="purple">Stack:</span> Python/Django, Power BI, ETL, RBAC, Agile Scrum
+                </p>
+              </div>
+              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+                Digitalized an end-to-end HR payroll process covering 30+ organizational units. Delivered a secure SI solution (RBAC, audit trail, zero data persistence) with instant automated calculations replacing a 100% manual workflow and created dedicated Power BI spaces for DRH, CDGS and executive stakeholders.
               </p>
             </div>
-           
           </Col>
+
+     
+
+
 
           <Col md={6} className="experience-card">
             <div className="experience-item" style={expCardStyle}>
