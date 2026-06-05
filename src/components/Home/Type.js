@@ -4,16 +4,15 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
+   <Typewriter
   options={{
     strings: [
-      "SI & Transformation Digitale",
-      "Analyste Fonctionnelle & Data",
+      "SI & Digital Transformation",
+      "Functional & Data Analyst",
       "Process Automation Engineer",
       "BI & Reporting Specialist",
       "Data & Business Analyst",
-  
-        ],
+    ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
