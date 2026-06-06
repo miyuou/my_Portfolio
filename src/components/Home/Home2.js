@@ -22,7 +22,7 @@ const expCardStyle = {
   borderRadius: "10px",
   marginBottom: "20px",
   border: "1px solid rgba(255, 255, 255, 0.2)",
-  height: "420px",
+  height: "430px",
   display: "flex",
   flexDirection: "column",
   overflow: "hidden"
