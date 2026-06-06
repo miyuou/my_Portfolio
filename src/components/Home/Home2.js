@@ -22,7 +22,7 @@ const expCardStyle = {
   borderRadius: "10px",
   marginBottom: "20px",
   border: "1px solid rgba(255, 255, 255, 0.2)",
-  height: "400px",
+  height: "420px",
   display: "flex",
   flexDirection: "column",
   overflow: "hidden"
@@ -44,14 +44,14 @@ function Home2() {
   engineering student at <span className="purple">EMSI, Casablanca</span>.
   Currently interning at <span className="purple">Deloitte Extended Services</span>,
   I work at the intersection of <span className="purple">business process analysis</span> and
-  <span className="purple"> SI implementation</span> — turning broken manual workflows
+  <span className="purple"> SI implementation</span> - turning broken manual workflows
   into automated, governed, and decision-ready systems.
   <br /><br />
   My work spans the full delivery cycle: from
   <span className="purple"> functional specs and process mapping </span>
   to <span className="purple">SI configuration, data governance</span> and
   <span className="purple"> BI dashboards</span> that stakeholders actually use.
-  Whether it's an ITSM platform, an SIRH solution, or a data pipeline —
+  Whether it's an ITSM platform, an SIRH solution, or a data pipeline -
   the approach is always the same: understand the business first, then build what solves it.
   <br /><br />
   Outside of work, I explore <span className="purple">psychology</span>,
