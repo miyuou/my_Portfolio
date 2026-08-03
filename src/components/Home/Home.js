@@ -11,7 +11,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row className="home-row flex-column-reverse flex-md-row align-items-center justify-content-center">
+          <Row className="flex-column-reverse flex-md-row align-items-center justify-content-center">
             {/* Image Column - Top on mobile */}
             <Col md={5} xs={12} className="text-center mb-4 mb-md-0">
               <img
@@ -45,7 +45,17 @@ function Home() {
                   <strong className="main-name"> MIRGHANY MERYEM </strong>
                 </h1>
 
-                <div style={{ padding: "30px 0", display: "flex", justifyContent: "center", width: "100%", minHeight: "60px" }}>
+                <div
+                  style={{
+                    padding: "30px 0",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    width: "100%",
+                    height: "60px",
+                    overflow: "hidden"
+                  }}
+                >
                   <div className="text-center">
                     <Type />
                   </div>
