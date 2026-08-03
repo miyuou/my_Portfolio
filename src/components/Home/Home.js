@@ -45,7 +45,7 @@ function Home() {
                   <strong className="main-name"> MIRGHANY MERYEM </strong>
                 </h1>
 
-                <div style={{ padding: "30px 0", display: "flex", justifyContent: "center", width: "100%" }}>
+                <div style={{ padding: "30px 0", display: "flex", justifyContent: "center", width: "100%", minHeight: "60px"  }}>
                   <div className="text-center">
                     <Type />
                   </div>
