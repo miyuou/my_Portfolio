@@ -11,7 +11,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row className="flex-column-reverse flex-md-row align-items-center justify-content-center">
+          <Row className="home-row flex-column-reverse flex-md-row align-items-center justify-content-center">
             {/* Image Column - Top on mobile */}
             <Col md={5} xs={12} className="text-center mb-4 mb-md-0">
               <img
@@ -23,7 +23,7 @@ function Home() {
                   width: "auto",
                   maxWidth: "100%",
                   borderRadius: "10px",
-                  ...(window.innerWidth <= 767 && { 
+                  ...(window.innerWidth <= 767 && {
                     maxHeight: "300px"
                   })
                 }}
@@ -45,7 +45,7 @@ function Home() {
                   <strong className="main-name"> MIRGHANY MERYEM </strong>
                 </h1>
 
-                <div style={{ padding: "30px 0", display: "flex", justifyContent: "center", width: "100%", minHeight: "60px"  }}>
+                <div style={{ padding: "30px 0", display: "flex", justifyContent: "center", width: "100%", minHeight: "60px" }}>
                   <div className="text-center">
                     <Type />
                   </div>
