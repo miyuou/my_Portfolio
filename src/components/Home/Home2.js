@@ -77,7 +77,7 @@ function Home2() {
                 <MdSchool style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
                 <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Software Engineering Degree</h3>
               </div>
-              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>EMSI — Moroccan School of Engineering Sciences</h4>
+              <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>EMSI - Moroccan School of Engineering Sciences</h4>
               <div style={{ marginBottom: "15px" }}>
                 <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
                   <span className="purple">Location:</span> Casablanca, Morocco
