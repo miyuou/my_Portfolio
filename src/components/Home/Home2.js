@@ -75,7 +75,7 @@ function Home2() {
             <div className="education-item" style={eduCardStyle}>
               <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <MdSchool style={{ fontSize: "1.5em", color: "#c770f0", marginRight: "10px" }} />
-                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>MIAGE Engineering Degree</h3>
+                <h3 className="purple" style={{ margin: "0", fontSize: "1.2em" }}>Software Engineering Degree</h3>
               </div>
               <h4 style={{ color: "#b0b0b084", margin: "0 0 10px 0", fontSize: "1.1em" }}>EMSI — Moroccan School of Engineering Sciences</h4>
               <div style={{ marginBottom: "15px" }}>
@@ -83,10 +83,10 @@ function Home2() {
                   <span className="purple">Location:</span> Casablanca, Morocco
                 </p>
                 <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-                  <span className="purple">Year:</span> 2021 - 2026 (Expected)
+                  <span className="purple">Year:</span> 2021 - 2026 
                 </p>
                 <p style={{ color: "#b0b0b084", margin: "5px 0", fontSize: "0.9em" }}>
-                  <span className="purple">Specialization:</span> Digital Transformation & Data Engineering
+                  <span className="purple">Specialization:</span> MIAGE 
                 </p>
               </div>
             </div>
@@ -141,8 +141,8 @@ function Home2() {
                 </p>
               </div>
               <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
-                Designed and deployed HR payroll transformation across 30+ organizational units. Conducted process analysis to map AS-IS workflows, identified automation opportunities, and architected secure solution with RBAC governance and audit trail. Delivered instant automated calculations (3h → 5 min) and structured data governance for sensitive compensation data.
-              </p>
+  Redesigned a decentralized HR compensation process into a standardized digital workflow, combining business analysis, process automation, and secure data governance to accelerate processing from 3 hours to under 5 minutes.
+</p>
             </div>
           </Col>
 
@@ -164,9 +164,9 @@ function Home2() {
                   <span className="purple">Focus:</span> ITSM Automation, Analytics, Operational Excellence
                 </p>
               </div>
-              <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
-                Conducted process audit of GLPI-based IT reporting workflow and engineered automated BI transformation. Built end-to-end ETL pipeline eliminating 100% of manual data entry and cutting reporting production time by 90%. Delivered real-time Power BI dashboards tracking incident volume, ticket resolution metrics, and asset KPIs. Standardized operational performance metrics enabling leadership decision-making and process optimization.
-              </p>
+            <p style={{ fontSize: "0.9em", color: "white", flexGrow: 1, margin: "0", overflow: "hidden" }}>
+  Designed an ETL pipeline and Power BI dashboards to automate IT reporting, reducing manual effort by 90% and delivering standardized operational KPIs for decision-making.
+</p>
             </div>
           </Col>
            <Col md={6} className="experience-card">
