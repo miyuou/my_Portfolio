@@ -954,3 +954,16 @@ button:focus {
 .project-card-view ul li {
   margin-bottom: 3px !important;
 }
+
+
+@media (max-width: 767px) {
+  .heading {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+
+  .heading-name {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+}
