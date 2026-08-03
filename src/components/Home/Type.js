@@ -6,12 +6,12 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Process Optimization",
           "Digital Transformation",
-          "Business Automation",
-          "Organizational Change",
-          "Data-Driven Decision Making",
-          "Workflow Excellence",
+          "Business Process Optimization",
+          "Business Analysis",
+          "Data & Decision Intelligence",
+          "Process Automation",
+          "AI for Business",
         ],
         autoStart: true,
         loop: true,
