@@ -3,97 +3,202 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+import DeloitteBanner from "../../Assets/Projects/Logo_Deloitte.jpeg";
+import PowerGLPI from "../../Assets/Projects/pwglpi.jpg";
+import CareerMatchAI from "../../Assets/Projects/cr.png";
 import Emsi from "../../Assets/Projects/EMSI.png";
+import FloralRecognition from "../../Assets/Projects/flower_wallpaper.jpg";
+import Change from "../../Assets/Projects/Change.png";
+import EM from "../../Assets/Projects/EM.png";
+
 import Collection from "../../Assets/Projects/coll.png";
 import Hiber from "../../Assets/Projects/hotel hiber casablanca.png";
 import emsiexchange from "../../Assets/Projects/swap.png";
 import auction from "../../Assets/Projects/auction.jpeg";
-import PowerGLPI from "../../Assets/Projects/pwglpi.jpg";
+
 import ticketManagement from "../../Assets/Projects/ticket.png";
 import testingAssistant from "../../Assets/Projects/test.png";
-import CareerMatchAI from "../../Assets/Projects/cr.png";
-import FloralRecognition from "../../Assets/Projects/flower_wallpaper.jpg";
-import DeloitteBanner from "../../Assets/Projects/Logo_Deloitte.jpeg";
+
 function Projects() {
-  const projectsData = [
-   {
-  imgPath: DeloitteBanner,
-  title: "Payroll Automation Platform - Deloitte",
-  shortDescription: "Data Engineering · Business Analysis · Governance",
-  description:
-    "Led the end-to-end design and delivery of a secure payroll automation platform for the Social Control Management & HR teams at Deloitte. Acting as the bridge between business stakeholders and technical implementation: gathered requirements through structured workshops, formalized business rules across 30+ organizational units, and translated them into a Python/Django web app with role-based access control and full audit trail. Delivered an ETL pipeline for instant bonus and salary calculations — replacing a 100% manual workflow — and 3 dedicated Power BI spaces for DRH, CDGS and executive stakeholders. Delivered under Agile Scrum with sprint planning, backlog grooming, and iterative demos.",
-  technologies: ["Python", "Django", "ETL", "Power BI", "RBAC", "Agile Scrum"],
-  ghLink: "",
-  demoLink: "",
-  isOngoing: true,
-  category: "SI Implementation & Data",
-  features: [
-    "Business process mapping & functional specifications (AS-IS / TO-BE)",
-    "Data governance: RBAC for 3 profiles (DRH, CDGS, Direction) + audit trail",
-    "Instant automated calculations replacing 100% manual payroll workflow",
-    "ETL pipeline for bonus & salary increase processing across 30+ units",
-    "3 dedicated Power BI spaces with real-time KPIs per stakeholder profile",
-    "Agile Scrum delivery: sprint planning, backlog grooming, stakeholder demos"
-  ]
-},
-{
-  imgPath: PowerGLPI,
-  title: "PowerGLPI - ITSM Analytics Solution",
-  shortDescription: "ITSM Reporting · GLPI · Business Intelligence",
-  description:
-    "PowerGLPI is an end-to-end BI solution built directly on top of the GLPI ITSM platform at Groupe Auto Hall — eliminating 100% of manual IT reporting and cutting processing time by 90%. Designed after a full AS-IS audit of the existing IT reporting process, the solution automates extraction, transformation and visualization of live ticket and asset data from GLPI into interactive Power BI dashboards. Delivered full Agile Scrum cycle: requirements, sprints, UAT and production release.",
-  technologies: ["Python", "Pandas", "Power BI", "DAX", "GLPI", "ETL", "Agile Scrum"],
-  ghLink: "",
-  demoLink: "",
-  isOngoing: false,
-  category: "ITSM & BI",
-  features: [
-    "AS-IS audit of existing GLPI-based IT reporting process",
-    "Automated ETL pipeline connected directly to GLPI data",
-    "90% reduction in processing time, 100% manual reporting eliminated",
-    "Real-time Power BI dashboards tracking incidents, tickets & asset KPIs",
-    "Advanced DAX calculations for operational performance metrics",
-    "Full Agile Scrum delivery: sprints, UAT, production release"
-  ]
-},
-     {
-    imgPath: CareerMatchAI, // You'll need to add this image
+const projectsData = [
+  // 1. Deloitte
+  {
+    imgPath: DeloitteBanner,
+    title: "Payroll Automation & Data Governance - Deloitte",
+    shortDescription:
+      "Digital Transformation · HR Process Optimization · Data Governance",
+    description:
+      "Designed and deployed an end-to-end HR transformation solution automating salary review workflows across 30+ organizational units. Combined business analysis, workflow automation, governance, RBAC security, and Power BI dashboards to reduce processing time from 3 hours to under 5 minutes while improving decision-making and process standardization.",
+    technologies: [
+      "Python",
+      "Django",
+      "Power BI",
+      "RBAC",
+      "Data Governance",
+      "Agile Scrum"
+    ],
+    ghLink: "",
+    demoLink: "",
+    isOngoing: false,
+    category: "Digital Transformation",
+    features: [
+      "Business process analysis",
+      "Workflow automation",
+      "RBAC & governance",
+      "Power BI dashboards",
+      "30+ organizational units",
+      "3h → <5 min processing time"
+    ]
+  },
+
+  // 2. Auto Hall
+  {
+    imgPath: PowerGLPI,
+    title: "IT Operations Analytics & Process Automation - Auto Hall",
+    shortDescription:
+      "Business Intelligence · Process Automation · Decision Support",
+    description:
+      "Developed an automated reporting solution for IT operations by integrating GLPI data into an ETL pipeline and Power BI dashboards. Eliminated manual reporting, standardized operational KPIs, and reduced reporting time by 90%.",
+    technologies: [
+      "Python",
+      "SQL",
+      "Power BI",
+      "ETL",
+      "GLPI",
+      "Agile Scrum"
+    ],
+    ghLink: "",
+    demoLink: "",
+    isOngoing: false,
+    category: "Business Intelligence",
+    features: [
+      "ETL pipeline",
+      "Power BI reporting",
+      "90% time reduction",
+      "Operational KPIs",
+      "Process automation",
+      "Agile delivery"
+    ]
+  },
+
+  // 3. CareerMatch AI
+  {
+    imgPath: CareerMatchAI,
     title: "CareerMatch AI - Talent Matching Platform",
-    shortDescription: "ML-powered career prediction and talent matching",
-    description: "CareerMatch AI is an intelligent platform that leverages machine learning algorithms to match talents with opportunities and predict career trajectories. The system analyzes profiles, skills, and market trends to provide personalized recommendations. Built with a modern tech stack, it features real-time analytics and interactive visualizations to help users make informed career decisions.",
-    technologies: ["React", "Python", "scikit-learn", "FastAPI"],
+    shortDescription:
+      "ML-powered career prediction and talent matching",
+    description:
+      "CareerMatch AI is an intelligent platform leveraging machine learning algorithms to match talents with opportunities and predict career trajectories. The system analyzes skills, profiles, and market trends to provide personalized recommendations through interactive analytics and visualizations.",
+    technologies: [
+      "React",
+      "Python",
+      "scikit-learn",
+      "FastAPI"
+    ],
     ghLink: "https://github.com/miyuou/CareerMatch_AI",
     demoLink: "",
     isOngoing: false,
     category: "Machine Learning",
     features: [
-      "ML-based talent matching algorithm",
-      "Career trajectory prediction",
-      "Real-time analytics dashboard",
-      "RESTful API with FastAPI",
-      "Interactive Power BI visualizations"
+      "ML-based talent matching",
+      "Career prediction",
+      "Analytics dashboard",
+      "REST API",
+      "Interactive visualizations"
     ]
   },
+
+  // 4. Floral Recognition
   {
-    imgPath: FloralRecognition, // You'll need to add this image
+    imgPath: FloralRecognition,
     title: "Floral Recognition - Deep Learning System",
-    shortDescription: "End-to-end CNN/ANN pipelines with mobile deployment",
-    description: "A comprehensive floral recognition system built using deep learning techniques. This project implements a complete ML pipeline from data preprocessing to model deployment on mobile devices.The system achieves high accuracy in floral detection and recognition tasks. The mobile application provides real-time floral recognition capabilities with an intuitive user interface.",
-    technologies: ["TensorFlow", "OpenCV", "Flutter", "Python", "CNN","ANN"],
+    shortDescription:
+      "Computer Vision · CNN · Mobile AI",
+    description:
+      "Developed an end-to-end deep learning solution for flower recognition using convolutional neural networks. The project includes data preprocessing, model training, computer vision techniques, and deployment within a Flutter mobile application.",
+    technologies: [
+      "TensorFlow",
+      "OpenCV",
+      "Flutter",
+      "Python",
+      "CNN",
+      "ANN"
+    ],
     ghLink: "https://github.com/miyuou/Flutter_App",
     demoLink: "",
     isOngoing: false,
     category: "Deep Learning",
     features: [
-      "floral recognition models (CNN, ANN)",
-      "Real-time floral detection with OpenCV",
-      "Cross-platform mobile deployment",
-      "End-to-end ML pipeline",
-      "Image preprocessing and augmentation"
+      "CNN & ANN models",
+      "Computer vision",
+      "Mobile deployment",
+      "Image preprocessing",
+      "Real-time recognition"
     ]
   },
 
-    {
+  // 5. Change Readiness
+  {
+    imgPath: Change,
+    title: "Change Readiness Assessment Platform",
+    shortDescription:
+      "AI for Transformation · Change Analytics",
+    description:
+      "Designed an AI-assisted diagnostic platform evaluating organizational readiness across leadership, culture, data maturity, technology, and adoption. Uses NLP to identify resistance patterns and support transformation initiatives.",
+    technologies: [
+      "Python",
+      "NLP",
+      "scikit-learn",
+      "Power BI",
+      "AI"
+    ],
+    ghLink: "",
+    demoLink: "",
+    isOngoing: true,
+    category: "AI for Business",
+    features: [
+      "Readiness scoring",
+      "NLP analysis",
+      "Change diagnostics",
+      "Radar dashboards",
+      "Transformation recommendations"
+    ]
+  },
+
+ 
+
+ 
+
+  {
+  imgPath: EM,
+  title: "Internship Management Process ",
+  shortDescription:
+    "Business Analysis · Process Improvement · BPMN",
+
+  description:
+    "Analyzed the internship agreement management process at EMSI by documenting stakeholder interactions, identifying operational bottlenecks, and proposing an optimized digital workflow. Produced AS-IS and TO-BE process models to improve efficiency, traceability, and coordination.",
+
+  technologies: [
+    "Business Analysis",
+    "BPMN 2.0",
+    "Bizagi",
+    "Process Mapping"
+  ],
+
+  ghLink: "",
+  demoLink: "",
+  isOngoing: false,
+  category: "Academic Project",
+
+  features: [
+    "Stakeholder analysis",
+    "AS-IS process mapping",
+    "TO-BE workflow design",
+    "BPMN modeling",
+    "Process improvement"
+  ]
+},
+{
       imgPath: Emsi,
       title: "EMSI SmartPresence",
       shortDescription: "Student Attendance Management Application",
@@ -219,16 +324,17 @@ function Projects() {
     }
   ];
 
+
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Recent Projects</strong>
+          Transformation <strong className="purple">Initiatives</strong>
         </h1>
         <p style={{ color: "white", fontSize: "1.1em", marginBottom: "2rem" }}>
-          Discover a selection of my most recent projects, showcasing my mastery 
-          of various technologies and solution-oriented approach.
+          End-to-end business transformation and process optimization projects, 
+          bridging organizational challenges with data-driven and automated solutions.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -254,12 +360,11 @@ function Projects() {
         <Row className="justify-content-center" style={{ marginTop: "3rem" }}>
           <Col md={8} className="text-center">
             <h3 style={{ color: "white", marginBottom: "1rem" }}>
-              Interested in Collaboration?
+              Driving Organizational Transformation
             </h3>
             <p style={{ color: "white", fontSize: "1.1em" }}>
-              I'm always open to new challenges and innovative projects. 
-              Feel free to contact me to discuss your ideas!
-       
+              Looking to optimize processes, automate workflows, or scale digital initiatives? 
+              Let's discuss how to bridge your business challenges with data-driven solutions.
             </p>
           </Col>
         </Row>
@@ -269,4 +374,3 @@ function Projects() {
 }
 
 export default Projects;
-

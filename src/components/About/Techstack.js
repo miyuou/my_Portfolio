@@ -1,102 +1,78 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
   DiPython,
-  DiGit,
+  DiReact,
   DiDjango,
+  DiGit,
 } from "react-icons/di";
+
 import {
+  SiPostgresql,
   SiMysql,
   SiMicrosoftsqlserver,
-  SiOracle,
   SiDocker,
-  SiHtml5,
-  SiCss3,
-  SiPostgresql,
-  SiSnowflake,
-  SiMongodb,
-  SiApacheairflow,
-  SiJira,
   SiPowerbi,
-  SiAzuredevops,
+  SiApacheairflow,
+  SiMicrosoftazure,
+  SiGooglecloud,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
-      {/* Core Languages */}
+      {/* Programming */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython title="Python"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 title="JavaScript"/>
+        <DiPython title="Python" />
       </Col>
 
-      {/* SI & Backend */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiDjango title="Django"/>
+        <DiDjango title="Django" />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact title="React"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs title="NodeJS"/>
+        <DiReact title="React" />
       </Col>
 
       {/* Databases */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql title="PostgreSQL"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql title="MySQL"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftsqlserver title="SQL Server"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiOracle title="Oracle"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb title="MongoDB"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSnowflake title="Snowflake"/>
+        <SiPostgresql title="PostgreSQL" />
       </Col>
 
-      {/* Data & BI */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi title="Power BI"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApacheairflow title="Airflow / ETL"/>
+        <SiMysql title="MySQL" />
       </Col>
 
-      {/* DevOps & Cloud */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker title="Docker"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAzuredevops title="Azure DevOps"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit title="Git"/>
+        <SiMicrosoftsqlserver title="SQL Server" />
       </Col>
 
-      {/* Project & ITSM */}
+      {/* Data */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira title="Jira"/>
+        <SiPowerbi title="Power BI" />
       </Col>
 
-      {/* Web */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 title="HTML5"/>
+        <SiApacheairflow title="Apache Airflow" />
       </Col>
+
+      {/* Cloud */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 title="CSS3"/>
+        <SiMicrosoftazure title="Microsoft Azure" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud title="Google Cloud Platform" />
+      </Col>
+
+      {/* Dev */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker title="Docker" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit title="Git" />
       </Col>
 
     </Row>
