@@ -38,7 +38,7 @@ function Home2() {
         <Row className="justify-content-center">
           <Col md={8} className="home-about-description text-center">
             <h1 style={{ fontSize: "2.6em" }}>
-              TRANSFORMATION THROUGH <span className="purple">PROCESS & DATA</span>
+           <span className="purple">Welcome To My World</span>
             </h1>
             <p className="home-about-body" style={{ textAlign: "center" }}>
               I'm <span className="purple">Meryem Mirghany</span>, a digital transformation 
