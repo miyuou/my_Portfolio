@@ -7,7 +7,7 @@ import {
   SiJira,
   SiConfluence,
   SiPostman,
-  SiMicrosoftexcel,
+ 
   SiNotion,
   
 } from "react-icons/si";
